@@ -1,0 +1,20 @@
+{
+  "chor": {
+    "final_energy_eh": -838.271116720443,
+    "opt_converged": true,
+    "n_modes": 78,
+    "n_imaginary": 0,
+    "imaginary_threshold_cm1": -50.0,
+    "n_soft_imaginary": 0,
+    "soft_imaginary_threshold_cm1": -10.0
+  },
+  "preph": {
+    "final_energy_eh": -838.285354279888,
+    "opt_converged": true,
+    "n_modes": 78,
+    "n_imaginary": 0,
+    "imaginary_threshold_cm1": -50.0,
+    "n_soft_imaginary": 0,
+    "soft_imaginary_threshold_cm1": -10.0
+  }
+}

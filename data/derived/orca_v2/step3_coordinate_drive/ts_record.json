@@ -1,0 +1,83 @@
+{
+  "stage": "ts",
+  "attempts": 0,
+  "jobs": [
+    {
+      "name": "scan",
+      "skipped": false,
+      "wall_seconds": 6792.722
+    },
+    {
+      "name": "constr",
+      "skipped": false,
+      "wall_seconds": 483.227
+    },
+    {
+      "name": "optts",
+      "skipped": false,
+      "wall_seconds": 1504.652
+    }
+  ],
+  "input": {
+    "endpoints_record": "data/derived/orca_v2/step2_endpoints/endpoints_record.json",
+    "accepted": "chor",
+    "accepted_energy_eh": -838.271116720443,
+    "input_xyz": "data/derived/orca_v2/step2_endpoints/chor.xyz",
+    "c11_c16_start_A": 4.510593
+  },
+  "scan": {
+    "range_A": [
+      4.4,
+      1.8,
+      14
+    ],
+    "peak_step": 11,
+    "peak_frame": "scan.011.xyz",
+    "peak_energy_eh": -838.248533323366,
+    "peak_n_fragments": 1,
+    "peak_heavy_fragment_sizes": [
+      16
+    ],
+    "peak_o1_c7_A": 1.5355206747048973,
+    "peak_c11_c16_A": 2.3999999953303846,
+    "wall_seconds": 6792.722
+  },
+  "constr": {
+    "energy_eh": -838.247293243476,
+    "opt_converged": true,
+    "n_fragments": 1,
+    "o1_c7_A": 2.1999999960158547,
+    "c11_c16_A": 2.199999999114333,
+    "wall_seconds": 483.227
+  },
+  "ts_source": "OptTS (converged)",
+  "optts": {
+    "energy_eh": -838.244178868391,
+    "optts_converged": true,
+    "n_modes": 78,
+    "n_imaginary": 1,
+    "imaginary_modes": [
+      [
+        6,
+        -268.6
+      ]
+    ],
+    "n_soft_imaginary": 0,
+    "n_fragments": 1,
+    "key_distances": {
+      "O1-C7 (breaking)": 2.074973415801272,
+      "C11-C16 (forming)": 2.4888954692099867,
+      "O1-C14 (->C=O)": 1.277627126270024,
+      "C14-C16": 1.382946460148765,
+      "C7-C9": 1.3828251552781357,
+      "C9-C11": 1.3893790967410586
+    },
+    "wall_seconds": 1504.652
+  },
+  "accepted": "optts",
+  "accepted_energy_eh": -838.244178868391,
+  "deliverables": [
+    "optts.xyz",
+    "optts.hess"
+  ]
+}

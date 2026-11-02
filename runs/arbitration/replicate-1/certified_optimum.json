@@ -1,0 +1,63 @@
+{
+  "certified_rows": 100,
+  "config_key": "af0b166634c8499411d2e2a290f1cadf0a30224e7d0dd78626a29578172057ed",
+  "e_r_eh": -838.336580760804,
+  "e_ts_eh": -838.558660781377,
+  "f_dft_kcal": -139.35731690961615,
+  "f_xtb_kcal": -109.3544921875,
+  "fitness_id": "orca_r2scan3c_v2",
+  "idx_i": 449,
+  "idx_j": 457,
+  "k_final": 100,
+  "landscape": "replicate-1",
+  "oracle_rank": 93,
+  "probe_statistics": null,
+  "provenance": {
+    "constant_kcal_per_eh": 627.5094740631,
+    "engine": {
+      "list_k": 100,
+      "workers": 16
+    },
+    "geometries": {
+      "p": "data/derived/structures/prephenate_TSframe.xyz",
+      "p_sha256": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32",
+      "reactant": "data/derived/structures/chorismate_reactive_TSframe.xyz",
+      "reactant_sha256": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd",
+      "ts": "data/derived/structures/ts_opt.xyz",
+      "ts_sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3"
+    },
+    "landscape": "replicate-1",
+    "landscape_artifacts_sha256": {
+      "cloud": {
+        "path": "data/replicates/replicate-1/candidates_replicate-1.npy",
+        "sha256": "d5008081cdb201a9900a8817727f3b58372f45397e7aa7bdc77811bfd7ca8fa8"
+      },
+      "domain_exclusions.json": "92c5059b5e118b149344816fffaf181fd8b31e1b0ab3a72e9e01f2c84f2dd58a",
+      "e_r.npy": "25db43cce5bd2c7e07cb505ad28a556ffa1aa15b452fe4fb40daca1fcd308b3b",
+      "e_ts.npy": "9a04c822d0628a72867d09f359f05072488cd991e6cd8051cdda211782c110be",
+      "enumeration_summary.json": "9da7cc676c1ac79ea45cf1c7b7fd7679e5bafd76e5e9309e6386c879edb98e0b",
+      "f.npy": "a2102792a95c1067668dede91101c7c707c344189f2d1efcf1d57538e9a22031",
+      "pair_indices.npy": "961b16570613cd6c015bdf2ee64014fb0a53e8b09e40576fbe3507e5a140d973",
+      "sign_index.npy": "5ec2849e4e88ed6183e3b9f7c1da2a7f735a4f6d040f4d016bb133f2a7f9e1c1"
+    },
+    "landscape_summary_sha256": "9da7cc676c1ac79ea45cf1c7b7fd7679e5bafd76e5e9309e6386c879edb98e0b",
+    "provider": {
+      "fitness_id": "orca_r2scan3c_v2",
+      "lot": "r2SCAN-3c TightSCF",
+      "maxcore_mb": 1500,
+      "pal": 1,
+      "pc_channel": {
+        "directive": "%pointcharges \"<abs path to .pc file>\"",
+        "file": "first line = charge count, then one 'q x y z' line per charge; q written as the literal +1.0 / -1.0",
+        "units": "angstrom, positions passed through unchanged (pinned empirically v1 2026-09-25; re-verified by the asymptote embedding gate in the test suite)"
+      }
+    },
+    "schema": "arbitration_v1"
+  },
+  "purpose": "the certified optimum of the certified landscape at r2SCAN-3c (item 7 step D; the deadline-critical record)",
+  "row": 1250891,
+  "schema": "arbitration_v1",
+  "sign_i": -1.0,
+  "sign_j": -1.0,
+  "utc": "2026-10-30T23:58:56.663416+00:00"
+}

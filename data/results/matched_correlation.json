@@ -1,0 +1,32 @@
+{
+ "schema": "matched_correlation_v1",
+ "note": "nearest-site matching, same signs; collisions and sub-floor images dropped",
+ "results": {
+  "replicate-1": {
+   "base": "canonical",
+   "other": "replicate-1",
+   "n_rows": 1699132,
+   "n_compared": 1695334,
+   "survival_fraction": 0.9978,
+   "dropped": {
+    "collision": 0,
+    "floor": 3796,
+    "nan": 2
+   },
+   "spearman": 0.9851
+  },
+  "replicate-2": {
+   "base": "canonical",
+   "other": "replicate-2",
+   "n_rows": 1699132,
+   "n_compared": 1695026,
+   "survival_fraction": 0.9976,
+   "dropped": {
+    "collision": 0,
+    "floor": 4104,
+    "nan": 2
+   },
+   "spearman": 0.9854
+  }
+ }
+}

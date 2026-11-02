@@ -1,0 +1,2020 @@
+{
+ "schema": "battery_seed_ledger_v1",
+ "landscape": "canonical",
+ "arm": "armA",
+ "G_battery": 2500,
+ "addendum_sha256": "28eb464a3e7813f2c31c551af4688c42710e3a6ea50273b46efa1274748db102",
+ "param_set": {
+  "pop_size": 50,
+  "tournament_k": 3,
+  "pc": 0.9,
+  "pm": 0.2,
+  "nn_k": 8,
+  "n_elite": 2,
+  "acceptance_margin": 0.0,
+  "use_descent": true,
+  "fence_rejection_cap": 1000
+ },
+ "records": {
+  "0": {
+   "record": "g002500_s00000_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121250,
+   "submitted": 43575,
+   "memo_hits": 77675,
+   "unique": 43575,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 12,
+    "0.5": 11,
+    "1.0": 11
+   },
+   "queries_at_success": {
+    "0.25": 1806,
+    "0.5": 1718,
+    "1.0": 1718
+   }
+  },
+  "1": {
+   "record": "g002500_s00001_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121026,
+   "submitted": 45328,
+   "memo_hits": 75698,
+   "unique": 45328,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 53,
+    "0.5": 12,
+    "1.0": 12
+   },
+   "queries_at_success": {
+    "0.25": 3570,
+    "0.5": 1544,
+    "1.0": 1544
+   }
+  },
+  "2": {
+   "record": "g002500_s00002_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121622,
+   "submitted": 43677,
+   "memo_hits": 77945,
+   "unique": 43677,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 11,
+    "0.5": 7,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 2082,
+    "0.5": 1796,
+    "1.0": 1796
+   }
+  },
+  "3": {
+   "record": "g002500_s00003_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121496,
+   "submitted": 45785,
+   "memo_hits": 75711,
+   "unique": 45785,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 309,
+    "0.5": 307,
+    "1.0": 307
+   },
+   "queries_at_success": {
+    "0.25": 16328,
+    "0.5": 15954,
+    "1.0": 15954
+   }
+  },
+  "4": {
+   "record": "g002500_s00004_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121328,
+   "submitted": 43453,
+   "memo_hits": 77875,
+   "unique": 43453,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 21,
+    "0.5": 21,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 2248,
+    "0.5": 2248,
+    "1.0": 1028
+   }
+  },
+  "5": {
+   "record": "g002500_s00005_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120912,
+   "submitted": 47732,
+   "memo_hits": 73180,
+   "unique": 47732,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 570,
+    "0.5": 509,
+    "1.0": 509
+   },
+   "queries_at_success": {
+    "0.25": 28272,
+    "0.5": 25304,
+    "1.0": 25304
+   }
+  },
+  "6": {
+   "record": "g002500_s00006_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121484,
+   "submitted": 43972,
+   "memo_hits": 77512,
+   "unique": 43972,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 39,
+    "0.5": 22,
+    "1.0": 2
+   },
+   "queries_at_success": {
+    "0.25": 3288,
+    "0.5": 2454,
+    "1.0": 1418
+   }
+  },
+  "7": {
+   "record": "g002500_s00007_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121598,
+   "submitted": 43405,
+   "memo_hits": 78193,
+   "unique": 43405,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 7,
+    "0.5": 7,
+    "1.0": 6
+   },
+   "queries_at_success": {
+    "0.25": 1934,
+    "0.5": 1934,
+    "1.0": 1410
+   }
+  },
+  "8": {
+   "record": "g002500_s00008_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121088,
+   "submitted": 43172,
+   "memo_hits": 77916,
+   "unique": 43172,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 16,
+    "0.5": 16,
+    "1.0": 16
+   },
+   "queries_at_success": {
+    "0.25": 1836,
+    "0.5": 1836,
+    "1.0": 1836
+   }
+  },
+  "9": {
+   "record": "g002500_s00009_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121576,
+   "submitted": 44034,
+   "memo_hits": 77542,
+   "unique": 44034,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 11,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 2104,
+    "0.5": 1370,
+    "1.0": 1370
+   }
+  },
+  "10": {
+   "record": "g002500_s00010_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 122010,
+   "submitted": 46478,
+   "memo_hits": 75532,
+   "unique": 46478,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 213,
+    "0.5": 33,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 12194,
+    "0.5": 3536,
+    "1.0": 2288
+   }
+  },
+  "11": {
+   "record": "g002500_s00011_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121308,
+   "submitted": 45470,
+   "memo_hits": 75838,
+   "unique": 45470,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 36,
+    "0.5": 36,
+    "1.0": 34
+   },
+   "queries_at_success": {
+    "0.25": 2966,
+    "0.5": 2966,
+    "1.0": 2774
+   }
+  },
+  "12": {
+   "record": "g002500_s00012_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121666,
+   "submitted": 44745,
+   "memo_hits": 76921,
+   "unique": 44745,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 56,
+    "0.5": 28,
+    "1.0": 28
+   },
+   "queries_at_success": {
+    "0.25": 4316,
+    "0.5": 2972,
+    "1.0": 2972
+   }
+  },
+  "13": {
+   "record": "g002500_s00013_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120970,
+   "submitted": 43998,
+   "memo_hits": 76972,
+   "unique": 43998,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 56,
+    "0.5": 16,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 3498,
+    "0.5": 1554,
+    "1.0": 712
+   }
+  },
+  "14": {
+   "record": "g002500_s00014_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121064,
+   "submitted": 45094,
+   "memo_hits": 75970,
+   "unique": 45094,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 90,
+    "0.5": 89,
+    "1.0": 73
+   },
+   "queries_at_success": {
+    "0.25": 5336,
+    "0.5": 5248,
+    "1.0": 4434
+   }
+  },
+  "15": {
+   "record": "g002500_s00015_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121246,
+   "submitted": 44056,
+   "memo_hits": 77190,
+   "unique": 44056,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 32,
+    "0.5": 32,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 2762,
+    "0.5": 2762,
+    "1.0": 1610
+   }
+  },
+  "16": {
+   "record": "g002500_s00016_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120752,
+   "submitted": 42797,
+   "memo_hits": 77955,
+   "unique": 42797,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 15,
+    "0.5": 15,
+    "1.0": 15
+   },
+   "queries_at_success": {
+    "0.25": 1230,
+    "0.5": 1230,
+    "1.0": 1230
+   }
+  },
+  "17": {
+   "record": "g002500_s00017_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121652,
+   "submitted": 43416,
+   "memo_hits": 78236,
+   "unique": 43416,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 4,
+    "0.5": 4,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 1614,
+    "0.5": 1614,
+    "1.0": 1614
+   }
+  },
+  "18": {
+   "record": "g002500_s00018_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120908,
+   "submitted": 44521,
+   "memo_hits": 76387,
+   "unique": 44521,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 51,
+    "0.5": 16,
+    "1.0": 16
+   },
+   "queries_at_success": {
+    "0.25": 3268,
+    "0.5": 1542,
+    "1.0": 1542
+   }
+  },
+  "19": {
+   "record": "g002500_s00019_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121290,
+   "submitted": 43998,
+   "memo_hits": 77292,
+   "unique": 43998,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 22,
+    "0.5": 21,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 2346,
+    "0.5": 2258,
+    "1.0": 876
+   }
+  },
+  "20": {
+   "record": "g002500_s00020_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121350,
+   "submitted": 45220,
+   "memo_hits": 76130,
+   "unique": 45220,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 25,
+    "0.5": 25,
+    "1.0": 25
+   },
+   "queries_at_success": {
+    "0.25": 2510,
+    "0.5": 2510,
+    "1.0": 2510
+   }
+  },
+  "21": {
+   "record": "g002500_s00021_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121014,
+   "submitted": 41550,
+   "memo_hits": 79464,
+   "unique": 41550,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 14,
+    "0.5": 7,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 1686,
+    "0.5": 1310,
+    "1.0": 1310
+   }
+  },
+  "22": {
+   "record": "g002500_s00022_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121416,
+   "submitted": 49000,
+   "memo_hits": 72416,
+   "unique": 49000,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 1937,
+    "0.5": 1937,
+    "1.0": 1937
+   },
+   "queries_at_success": {
+    "0.25": 94392,
+    "0.5": 94392,
+    "1.0": 94392
+   }
+  },
+  "23": {
+   "record": "g002500_s00023_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120940,
+   "submitted": 42924,
+   "memo_hits": 78016,
+   "unique": 42924,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 17,
+    "0.5": 14,
+    "1.0": 14
+   },
+   "queries_at_success": {
+    "0.25": 1756,
+    "0.5": 1470,
+    "1.0": 1470
+   }
+  },
+  "24": {
+   "record": "g002500_s00024_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121806,
+   "submitted": 45845,
+   "memo_hits": 75961,
+   "unique": 45845,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 61,
+    "0.5": 21,
+    "1.0": 18
+   },
+   "queries_at_success": {
+    "0.25": 4714,
+    "0.5": 2722,
+    "1.0": 2430
+   }
+  },
+  "25": {
+   "record": "g002500_s00025_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121116,
+   "submitted": 44465,
+   "memo_hits": 76651,
+   "unique": 44465,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 113,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 6520,
+    "0.5": 838,
+    "1.0": 838
+   }
+  },
+  "26": {
+   "record": "g002500_s00026_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 122024,
+   "submitted": 44553,
+   "memo_hits": 77471,
+   "unique": 44553,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 269,
+    "0.5": 30,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 14916,
+    "0.5": 3140,
+    "1.0": 1988
+   }
+  },
+  "27": {
+   "record": "g002500_s00027_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121634,
+   "submitted": 44965,
+   "memo_hits": 76669,
+   "unique": 44965,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 97,
+    "0.5": 96,
+    "1.0": 78
+   },
+   "queries_at_success": {
+    "0.25": 6290,
+    "0.5": 6178,
+    "1.0": 5256
+   }
+  },
+  "28": {
+   "record": "g002500_s00028_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120522,
+   "submitted": 43492,
+   "memo_hits": 77030,
+   "unique": 43492,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 49,
+    "0.5": 49,
+    "1.0": 24
+   },
+   "queries_at_success": {
+    "0.25": 2854,
+    "0.5": 2854,
+    "1.0": 1606
+   }
+  },
+  "29": {
+   "record": "g002500_s00029_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121936,
+   "submitted": 45531,
+   "memo_hits": 76405,
+   "unique": 45531,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 65,
+    "0.5": 54,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 4398,
+    "0.5": 3846,
+    "1.0": 890
+   }
+  },
+  "30": {
+   "record": "g002500_s00030_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121432,
+   "submitted": 44469,
+   "memo_hits": 76963,
+   "unique": 44469,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 84,
+    "0.5": 11,
+    "1.0": 6
+   },
+   "queries_at_success": {
+    "0.25": 5400,
+    "0.5": 1734,
+    "1.0": 1402
+   }
+  },
+  "31": {
+   "record": "g002500_s00031_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121266,
+   "submitted": 47368,
+   "memo_hits": 73898,
+   "unique": 47368,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 289,
+    "0.5": 289,
+    "1.0": 289
+   },
+   "queries_at_success": {
+    "0.25": 15138,
+    "0.5": 15138,
+    "1.0": 15138
+   }
+  },
+  "32": {
+   "record": "g002500_s00032_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121512,
+   "submitted": 44243,
+   "memo_hits": 77269,
+   "unique": 44243,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 8,
+    "0.5": 8,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 1664,
+    "0.5": 1664,
+    "1.0": 1664
+   }
+  },
+  "33": {
+   "record": "g002500_s00033_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120968,
+   "submitted": 46484,
+   "memo_hits": 74484,
+   "unique": 46484,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 304,
+    "0.5": 303,
+    "1.0": 264
+   },
+   "queries_at_success": {
+    "0.25": 15560,
+    "0.5": 15472,
+    "1.0": 13600
+   }
+  },
+  "34": {
+   "record": "g002500_s00034_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121306,
+   "submitted": 44821,
+   "memo_hits": 76485,
+   "unique": 44821,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 173,
+    "0.5": 11,
+    "1.0": 3
+   },
+   "queries_at_success": {
+    "0.25": 9610,
+    "0.5": 1704,
+    "1.0": 1320
+   }
+  },
+  "35": {
+   "record": "g002500_s00035_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121500,
+   "submitted": 44583,
+   "memo_hits": 76917,
+   "unique": 44583,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 47,
+    "0.5": 18,
+    "1.0": 18
+   },
+   "queries_at_success": {
+    "0.25": 3756,
+    "0.5": 2324,
+    "1.0": 2324
+   }
+  },
+  "36": {
+   "record": "g002500_s00036_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121166,
+   "submitted": 45004,
+   "memo_hits": 76162,
+   "unique": 45004,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 6,
+    "0.5": 4,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 1362,
+    "0.5": 1266,
+    "1.0": 936
+   }
+  },
+  "37": {
+   "record": "g002500_s00037_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121874,
+   "submitted": 44640,
+   "memo_hits": 77234,
+   "unique": 44640,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 14,
+    "0.5": 14,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 2506,
+    "0.5": 2506,
+    "1.0": 2218
+   }
+  },
+  "38": {
+   "record": "g002500_s00038_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121278,
+   "submitted": 45066,
+   "memo_hits": 76212,
+   "unique": 45066,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 84,
+    "0.5": 11,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 5290,
+    "0.5": 1704,
+    "1.0": 1368
+   }
+  },
+  "39": {
+   "record": "g002500_s00039_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121796,
+   "submitted": 44931,
+   "memo_hits": 76865,
+   "unique": 44931,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 159,
+    "0.5": 23,
+    "1.0": 22
+   },
+   "queries_at_success": {
+    "0.25": 9408,
+    "0.5": 2654,
+    "1.0": 2530
+   }
+  },
+  "40": {
+   "record": "g002500_s00040_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121728,
+   "submitted": 45923,
+   "memo_hits": 75805,
+   "unique": 45923,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 84,
+    "0.5": 84,
+    "1.0": 84
+   },
+   "queries_at_success": {
+    "0.25": 5760,
+    "0.5": 5760,
+    "1.0": 5760
+   }
+  },
+  "41": {
+   "record": "g002500_s00041_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121138,
+   "submitted": 44707,
+   "memo_hits": 76431,
+   "unique": 44707,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 14,
+    "0.5": 14,
+    "1.0": 6
+   },
+   "queries_at_success": {
+    "0.25": 1746,
+    "0.5": 1746,
+    "1.0": 1064
+   }
+  },
+  "42": {
+   "record": "g002500_s00042_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121586,
+   "submitted": 46082,
+   "memo_hits": 75504,
+   "unique": 46082,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 1,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 890,
+    "0.5": 890,
+    "1.0": 890
+   }
+  },
+  "43": {
+   "record": "g002500_s00043_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121164,
+   "submitted": 42328,
+   "memo_hits": 78836,
+   "unique": 42328,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 11,
+    "0.5": 11,
+    "1.0": 11
+   },
+   "queries_at_success": {
+    "0.25": 1470,
+    "0.5": 1470,
+    "1.0": 1470
+   }
+  },
+  "44": {
+   "record": "g002500_s00044_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121126,
+   "submitted": 44145,
+   "memo_hits": 76981,
+   "unique": 44145,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 8,
+    "0.5": 8,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 1428,
+    "0.5": 1428,
+    "1.0": 1428
+   }
+  },
+  "45": {
+   "record": "g002500_s00045_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121096,
+   "submitted": 45636,
+   "memo_hits": 75460,
+   "unique": 45636,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 90,
+    "0.5": 27,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 5396,
+    "0.5": 2308,
+    "1.0": 1348
+   }
+  },
+  "46": {
+   "record": "g002500_s00046_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121530,
+   "submitted": 44176,
+   "memo_hits": 77354,
+   "unique": 44176,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 199,
+    "0.5": 15,
+    "1.0": 15
+   },
+   "queries_at_success": {
+    "0.25": 11062,
+    "0.5": 2230,
+    "1.0": 2230
+   }
+  },
+  "47": {
+   "record": "g002500_s00047_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121264,
+   "submitted": 44107,
+   "memo_hits": 77157,
+   "unique": 44107,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 47,
+    "0.5": 7,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 3480,
+    "0.5": 1518,
+    "1.0": 1518
+   }
+  },
+  "48": {
+   "record": "g002500_s00048_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121200,
+   "submitted": 47483,
+   "memo_hits": 73717,
+   "unique": 47483,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 407,
+    "0.5": 237,
+    "1.0": 237
+   },
+   "queries_at_success": {
+    "0.25": 20736,
+    "0.5": 12420,
+    "1.0": 12420
+   }
+  },
+  "49": {
+   "record": "g002500_s00049_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121708,
+   "submitted": 44961,
+   "memo_hits": 76747,
+   "unique": 44961,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 80,
+    "0.5": 79,
+    "1.0": 76
+   },
+   "queries_at_success": {
+    "0.25": 5484,
+    "0.5": 5396,
+    "1.0": 5252
+   }
+  },
+  "50": {
+   "record": "g002500_s00050_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121312,
+   "submitted": 43938,
+   "memo_hits": 77374,
+   "unique": 43938,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 5,
+    "0.5": 5,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 1514,
+    "0.5": 1514,
+    "1.0": 1186
+   }
+  },
+  "51": {
+   "record": "g002500_s00051_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120778,
+   "submitted": 41752,
+   "memo_hits": 79026,
+   "unique": 41752,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 13,
+    "0.5": 13,
+    "1.0": 13
+   },
+   "queries_at_success": {
+    "0.25": 1402,
+    "0.5": 1402,
+    "1.0": 1402
+   }
+  },
+  "52": {
+   "record": "g002500_s00052_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120964,
+   "submitted": 43709,
+   "memo_hits": 77255,
+   "unique": 43709,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 73,
+    "0.5": 73,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 4448,
+    "0.5": 4448,
+    "1.0": 1258
+   }
+  },
+  "53": {
+   "record": "g002500_s00053_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121402,
+   "submitted": 44507,
+   "memo_hits": 76895,
+   "unique": 44507,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 80,
+    "0.5": 21,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 5222,
+    "0.5": 2302,
+    "1.0": 1630
+   }
+  },
+  "54": {
+   "record": "g002500_s00054_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121354,
+   "submitted": 45176,
+   "memo_hits": 76178,
+   "unique": 45176,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 256,
+    "0.5": 180,
+    "1.0": 158
+   },
+   "queries_at_success": {
+    "0.25": 13410,
+    "0.5": 9672,
+    "1.0": 8524
+   }
+  },
+  "55": {
+   "record": "g002500_s00055_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121582,
+   "submitted": 43005,
+   "memo_hits": 78577,
+   "unique": 43005,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 127,
+    "0.5": 2,
+    "1.0": 2
+   },
+   "queries_at_success": {
+    "0.25": 7654,
+    "0.5": 1020,
+    "1.0": 1020
+   }
+  },
+  "56": {
+   "record": "g002500_s00056_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120988,
+   "submitted": 43757,
+   "memo_hits": 77231,
+   "unique": 43757,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 44,
+    "0.5": 12,
+    "1.0": 6
+   },
+   "queries_at_success": {
+    "0.25": 3080,
+    "0.5": 1480,
+    "1.0": 1192
+   }
+  },
+  "57": {
+   "record": "g002500_s00057_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121090,
+   "submitted": 43572,
+   "memo_hits": 77518,
+   "unique": 43572,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 10,
+    "0.5": 10,
+    "1.0": 10
+   },
+   "queries_at_success": {
+    "0.25": 1570,
+    "0.5": 1570,
+    "1.0": 1570
+   }
+  },
+  "58": {
+   "record": "g002500_s00058_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120970,
+   "submitted": 44529,
+   "memo_hits": 76441,
+   "unique": 44529,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 25,
+    "0.5": 25,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 2150,
+    "0.5": 2150,
+    "1.0": 834
+   }
+  },
+  "59": {
+   "record": "g002500_s00059_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121434,
+   "submitted": 43302,
+   "memo_hits": 78132,
+   "unique": 43302,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 39,
+    "0.5": 19,
+    "1.0": 19
+   },
+   "queries_at_success": {
+    "0.25": 3262,
+    "0.5": 2258,
+    "1.0": 2258
+   }
+  },
+  "60": {
+   "record": "g002500_s00060_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121240,
+   "submitted": 44071,
+   "memo_hits": 77169,
+   "unique": 44071,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 119,
+    "0.5": 7,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 6932,
+    "0.5": 1556,
+    "1.0": 1556
+   }
+  },
+  "61": {
+   "record": "g002500_s00061_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121856,
+   "submitted": 43869,
+   "memo_hits": 77987,
+   "unique": 43869,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 10,
+    "0.5": 10,
+    "1.0": 5
+   },
+   "queries_at_success": {
+    "0.25": 2254,
+    "0.5": 2254,
+    "1.0": 2014
+   }
+  },
+  "62": {
+   "record": "g002500_s00062_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120946,
+   "submitted": 46844,
+   "memo_hits": 74102,
+   "unique": 46844,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 437,
+    "0.5": 436,
+    "1.0": 414
+   },
+   "queries_at_success": {
+    "0.25": 21902,
+    "0.5": 21814,
+    "1.0": 20758
+   }
+  },
+  "63": {
+   "record": "g002500_s00063_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121186,
+   "submitted": 44018,
+   "memo_hits": 77168,
+   "unique": 44018,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 171,
+    "0.5": 75,
+    "1.0": 10
+   },
+   "queries_at_success": {
+    "0.25": 9258,
+    "0.5": 4560,
+    "1.0": 1440
+   }
+  },
+  "64": {
+   "record": "g002500_s00064_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121080,
+   "submitted": 47308,
+   "memo_hits": 73772,
+   "unique": 47308,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 664,
+    "0.5": 664,
+    "1.0": 643
+   },
+   "queries_at_success": {
+    "0.25": 32932,
+    "0.5": 32932,
+    "1.0": 31924
+   }
+  },
+  "65": {
+   "record": "g002500_s00065_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121284,
+   "submitted": 43913,
+   "memo_hits": 77371,
+   "unique": 43913,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 25,
+    "0.5": 25,
+    "1.0": 6
+   },
+   "queries_at_success": {
+    "0.25": 2464,
+    "0.5": 2464,
+    "1.0": 1552
+   }
+  },
+  "66": {
+   "record": "g002500_s00066_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121182,
+   "submitted": 44361,
+   "memo_hits": 76821,
+   "unique": 44361,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 5,
+    "0.5": 5,
+    "1.0": 5
+   },
+   "queries_at_success": {
+    "0.25": 1422,
+    "0.5": 1422,
+    "1.0": 1422
+   }
+  },
+  "67": {
+   "record": "g002500_s00067_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121266,
+   "submitted": 44454,
+   "memo_hits": 76812,
+   "unique": 44454,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 262,
+    "0.5": 48,
+    "1.0": 14
+   },
+   "queries_at_success": {
+    "0.25": 13782,
+    "0.5": 3324,
+    "1.0": 1620
+   }
+  },
+  "68": {
+   "record": "g002500_s00068_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121444,
+   "submitted": 43491,
+   "memo_hits": 77953,
+   "unique": 43491,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 20,
+    "0.5": 8,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 2384,
+    "0.5": 1768,
+    "1.0": 1768
+   }
+  },
+  "69": {
+   "record": "g002500_s00069_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121150,
+   "submitted": 43964,
+   "memo_hits": 77186,
+   "unique": 43964,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 45,
+    "0.5": 15,
+    "1.0": 13
+   },
+   "queries_at_success": {
+    "0.25": 3270,
+    "0.5": 1788,
+    "1.0": 1692
+   }
+  },
+  "70": {
+   "record": "g002500_s00070_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121130,
+   "submitted": 46082,
+   "memo_hits": 75048,
+   "unique": 46082,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 229,
+    "0.5": 229,
+    "1.0": 200
+   },
+   "queries_at_success": {
+    "0.25": 11984,
+    "0.5": 11984,
+    "1.0": 10544
+   }
+  },
+  "71": {
+   "record": "g002500_s00071_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121938,
+   "submitted": 45221,
+   "memo_hits": 76717,
+   "unique": 45221,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 142,
+    "0.5": 5,
+    "1.0": 2
+   },
+   "queries_at_success": {
+    "0.25": 8754,
+    "0.5": 1832,
+    "1.0": 1596
+   }
+  },
+  "72": {
+   "record": "g002500_s00072_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121212,
+   "submitted": 46621,
+   "memo_hits": 74591,
+   "unique": 46621,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 382,
+    "0.5": 382,
+    "1.0": 382
+   },
+   "queries_at_success": {
+    "0.25": 19436,
+    "0.5": 19436,
+    "1.0": 19436
+   }
+  },
+  "73": {
+   "record": "g002500_s00073_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121150,
+   "submitted": 43584,
+   "memo_hits": 77566,
+   "unique": 43584,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 17,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 1946,
+    "0.5": 686,
+    "1.0": 686
+   }
+  },
+  "74": {
+   "record": "g002500_s00074_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120948,
+   "submitted": 44106,
+   "memo_hits": 76842,
+   "unique": 44106,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 1,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 996,
+    "0.5": 996,
+    "1.0": 996
+   }
+  },
+  "75": {
+   "record": "g002500_s00075_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120966,
+   "submitted": 43934,
+   "memo_hits": 77032,
+   "unique": 43934,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 20,
+    "0.5": 8,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 1926,
+    "0.5": 1310,
+    "1.0": 1310
+   }
+  },
+  "76": {
+   "record": "g002500_s00076_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120756,
+   "submitted": 44482,
+   "memo_hits": 76274,
+   "unique": 44482,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 198,
+    "0.5": 23,
+    "1.0": 3
+   },
+   "queries_at_success": {
+    "0.25": 10196,
+    "0.5": 1730,
+    "1.0": 770
+   }
+  },
+  "77": {
+   "record": "g002500_s00077_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121090,
+   "submitted": 44296,
+   "memo_hits": 76794,
+   "unique": 44296,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 36,
+    "0.5": 35,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 2818,
+    "0.5": 2730,
+    "1.0": 1074
+   }
+  },
+  "78": {
+   "record": "g002500_s00078_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120786,
+   "submitted": 44402,
+   "memo_hits": 76384,
+   "unique": 44402,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 5,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 982,
+    "0.5": 692,
+    "1.0": 692
+   }
+  },
+  "79": {
+   "record": "g002500_s00079_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121450,
+   "submitted": 44609,
+   "memo_hits": 76841,
+   "unique": 44609,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 243,
+    "0.5": 243,
+    "1.0": 5
+   },
+   "queries_at_success": {
+    "0.25": 13094,
+    "0.5": 13094,
+    "1.0": 1074
+   }
+  },
+  "80": {
+   "record": "g002500_s00080_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121458,
+   "submitted": 44534,
+   "memo_hits": 76924,
+   "unique": 44534,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 8,
+    "0.5": 8,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 1780,
+    "0.5": 1780,
+    "1.0": 1588
+   }
+  },
+  "81": {
+   "record": "g002500_s00081_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120624,
+   "submitted": 43378,
+   "memo_hits": 77246,
+   "unique": 43378,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 19,
+    "0.5": 1,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 1426,
+    "0.5": 494,
+    "1.0": 494
+   }
+  },
+  "82": {
+   "record": "g002500_s00082_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121434,
+   "submitted": 44338,
+   "memo_hits": 77096,
+   "unique": 44338,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 16,
+    "0.5": 16,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 2182,
+    "0.5": 2182,
+    "1.0": 1500
+   }
+  },
+  "83": {
+   "record": "g002500_s00083_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121156,
+   "submitted": 44023,
+   "memo_hits": 77133,
+   "unique": 44023,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 12,
+    "0.5": 4,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 1732,
+    "0.5": 1308,
+    "1.0": 1308
+   }
+  },
+  "84": {
+   "record": "g002500_s00084_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121524,
+   "submitted": 44838,
+   "memo_hits": 76686,
+   "unique": 44838,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 35,
+    "0.5": 32,
+    "1.0": 3
+   },
+   "queries_at_success": {
+    "0.25": 3164,
+    "0.5": 3020,
+    "1.0": 1628
+   }
+  },
+  "85": {
+   "record": "g002500_s00085_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121238,
+   "submitted": 43599,
+   "memo_hits": 77639,
+   "unique": 43599,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 7,
+    "0.5": 7,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 1574,
+    "0.5": 1574,
+    "1.0": 1574
+   }
+  },
+  "86": {
+   "record": "g002500_s00086_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121116,
+   "submitted": 44673,
+   "memo_hits": 76443,
+   "unique": 44673,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 100,
+    "0.5": 12,
+    "1.0": 12
+   },
+   "queries_at_success": {
+    "0.25": 5916,
+    "0.5": 1588,
+    "1.0": 1588
+   }
+  },
+  "87": {
+   "record": "g002500_s00087_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121458,
+   "submitted": 44970,
+   "memo_hits": 76488,
+   "unique": 44970,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 73,
+    "0.5": 5,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 4962,
+    "0.5": 1634,
+    "1.0": 1556
+   }
+  },
+  "88": {
+   "record": "g002500_s00088_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121078,
+   "submitted": 47319,
+   "memo_hits": 73759,
+   "unique": 47319,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 605,
+    "0.5": 605,
+    "1.0": 598
+   },
+   "queries_at_success": {
+    "0.25": 30064,
+    "0.5": 30064,
+    "1.0": 29616
+   }
+  },
+  "89": {
+   "record": "g002500_s00089_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120930,
+   "submitted": 44193,
+   "memo_hits": 76737,
+   "unique": 44193,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 96,
+    "0.5": 8,
+    "1.0": 8
+   },
+   "queries_at_success": {
+    "0.25": 5518,
+    "0.5": 1274,
+    "1.0": 1274
+   }
+  },
+  "90": {
+   "record": "g002500_s00090_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120618,
+   "submitted": 43603,
+   "memo_hits": 77015,
+   "unique": 43603,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 27,
+    "0.5": 27,
+    "1.0": 4
+   },
+   "queries_at_success": {
+    "0.25": 1894,
+    "0.5": 1894,
+    "1.0": 702
+   }
+  },
+  "91": {
+   "record": "g002500_s00091_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121244,
+   "submitted": 44571,
+   "memo_hits": 76673,
+   "unique": 44571,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 13,
+    "0.5": 13,
+    "1.0": 1
+   },
+   "queries_at_success": {
+    "0.25": 1732,
+    "0.5": 1732,
+    "1.0": 1156
+   }
+  },
+  "92": {
+   "record": "g002500_s00092_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121610,
+   "submitted": 43215,
+   "memo_hits": 78395,
+   "unique": 43215,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 75,
+    "0.5": 36,
+    "1.0": 36
+   },
+   "queries_at_success": {
+    "0.25": 5210,
+    "0.5": 3298,
+    "1.0": 3298
+   }
+  },
+  "93": {
+   "record": "g002500_s00093_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121306,
+   "submitted": 44180,
+   "memo_hits": 77126,
+   "unique": 44180,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 17,
+    "0.5": 14,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 2082,
+    "0.5": 1938,
+    "1.0": 1602
+   }
+  },
+  "94": {
+   "record": "g002500_s00094_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121168,
+   "submitted": 45677,
+   "memo_hits": 75491,
+   "unique": 45677,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 132,
+    "0.5": 61,
+    "1.0": 50
+   },
+   "queries_at_success": {
+    "0.25": 7460,
+    "0.5": 4004,
+    "1.0": 3084
+   }
+  },
+  "95": {
+   "record": "g002500_s00095_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121164,
+   "submitted": 43177,
+   "memo_hits": 77987,
+   "unique": 43177,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 28,
+    "0.5": 19,
+    "1.0": 7
+   },
+   "queries_at_success": {
+    "0.25": 2488,
+    "0.5": 2056,
+    "1.0": 1480
+   }
+  },
+  "96": {
+   "record": "g002500_s00096_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121726,
+   "submitted": 48234,
+   "memo_hits": 73492,
+   "unique": 48234,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 530,
+    "0.5": 473,
+    "1.0": 473
+   },
+   "queries_at_success": {
+    "0.25": 27126,
+    "0.5": 24154,
+    "1.0": 24154
+   }
+  },
+  "97": {
+   "record": "g002500_s00097_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 122444,
+   "submitted": 44730,
+   "memo_hits": 77714,
+   "unique": 44730,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 55,
+    "0.5": 55,
+    "1.0": 19
+   },
+   "queries_at_success": {
+    "0.25": 4992,
+    "0.5": 4992,
+    "1.0": 3192
+   }
+  },
+  "98": {
+   "record": "g002500_s00098_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 120862,
+   "submitted": 43876,
+   "memo_hits": 76986,
+   "unique": 43876,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 30,
+    "0.5": 9,
+    "1.0": 9
+   },
+   "queries_at_success": {
+    "0.25": 2234,
+    "0.5": 1226,
+    "1.0": 1226
+   }
+  },
+  "99": {
+   "record": "g002500_s00099_enumeration_v2_084e48a6b526.json",
+   "status": "ok",
+   "queries": 121390,
+   "submitted": 45426,
+   "memo_hits": 75964,
+   "unique": 45426,
+   "final_best_f": -125.21463012695312,
+   "final_best_row": 1190559,
+   "success": {
+    "0.25": 24,
+    "0.5": 23,
+    "1.0": 13
+   },
+   "queries_at_success": {
+    "0.25": 2518,
+    "0.5": 2430,
+    "1.0": 1950
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "config_key": "823ad425d3e048ca9b8649470c9069621f6976247777a9791e4c514b5527812c",
+  "e_r_relaxed_eh": -854.741809773283,
+  "job": "opt_r_embedded",
+  "landscape": "canonical",
+  "relaxed": {
+    "exit_code": 0,
+    "final_energy_eh": -854.741809773283,
+    "out": "/home/jonnyh/MyThesis/GOCAT_Program/runs/arbitration/canonical/F/opt_r/opt_r_embedded.out",
+    "site": "laptop",
+    "skipped": false,
+    "stderr": "/home/jonnyh/MyThesis/GOCAT_Program/runs/arbitration/canonical/F/opt_r/opt_r_embedded.stderr",
+    "wall_seconds": 1641.815
+  },
+  "row": 1224215,
+  "schema": "arbitration_v1",
+  "step": "F",
+  "utc": "2026-10-29T00:45:04.960864+00:00"
+}

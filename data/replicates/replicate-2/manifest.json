@@ -1,0 +1,29 @@
+{
+ "replicate": "replicate-2",
+ "stages": {
+  "cloud": {
+   "ok": true,
+   "utc": "2026-10-14T13:14:43+00:00",
+   "n": 928,
+   "mesh_area_A2": 256.7826490037527,
+   "gates_all_pass": true,
+   "sampler": {
+    "roll": 2,
+    "mechanism": "the pinned point-cloud_utils sampler is fixed-seeded per process; the canonical cloud is roll 0 of that stream and replicate k draws roll k: the draw process advances the stream by k discarded sample_mesh_lloyd runs (each at the recorded n) before the recorded draw",
+    "rederivability_band_A": 2e-12,
+    "band_source": "the 2026-10-14 test-8 ruling (the measured same-roll agreement ceiling 1.102e-12 A across 5 pinned reruns; the band = the ceiling x the project's ~1.8x headroom; the 2026-10-08 reference-band precedent)"
+   }
+  }
+ },
+ "manifest_sha256_note": "sha256 of every file written under this replicate root except the manifest itself; nothing downstream may proceed without this manifest",
+ "note": "the cloud stage's artifact set; one manifest for the replicate",
+ "files": {
+  "candidates_replicate-2.npy": "5811aec7bbd6fd352700ae67962c22673dc4fda7864a87546141f1ec8c71b797",
+  "candidates_replicate-2.xyz": "a40dc43fe5acc6604b996c83a3cab21a820cbffae61c907f95f6ee7c645c5b3f",
+  "candidates_replicate-2_provenance.npy": "d64d30d590372cdfe26f619bd41264512afe6a3bcdfa505d5812a83ac729c900",
+  "candidates_replicate-2_raw.npy": "bfe4b5e461b9a0fcba151ea992d17a13b427f95be6e7a31a4ca3fb388cd4fa97",
+  "cloud_replicate-2_comparison.json": "c6fb736e7ef81fda7fde5915d0c4058ce0d4b61c3f5f8be90ed0c5b7906aeefe",
+  "cloud_replicate-2_summary.json": "503cf6d1d3e41ec48c53fb52c54d6a5b3b994428cdf06dacba8eba1b7d4d2e03"
+ },
+ "written_utc": "2026-10-14T13:14:43+00:00"
+}

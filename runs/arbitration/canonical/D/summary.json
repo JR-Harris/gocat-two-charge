@@ -1,0 +1,1466 @@
+{
+  "boundary_trail": [],
+  "certified_rows": 100,
+  "dft_best": {
+    "f_kcal": -144.72592630969416,
+    "i": 435,
+    "j": 440,
+    "row": 1224215
+  },
+  "dft_best_per_step": {
+    "A": {
+      "f_kcal": -144.72592630969416,
+      "row": 1224215
+    },
+    "B": {
+      "f_kcal": -140.27795847370075,
+      "row": 1212467
+    }
+  },
+  "landscape": "canonical",
+  "probe_statistics": {
+    "n": 192,
+    "pearson_overall": 0.811894649931819,
+    "per_stratum": {
+      "carboxylate": {
+        "n": 48,
+        "pearson": 0.9166298147377439,
+        "quintile_spread": {
+          "q1": 10,
+          "q2": 10,
+          "q3": 8,
+          "q4": 10,
+          "q5": 10
+        },
+        "rms_kcal": 18.40574854616379,
+        "spearman": 0.9180416847590099
+      },
+      "core": {
+        "n": 60,
+        "pearson": 0.7618391200684508,
+        "quintile_spread": {
+          "q1": 12,
+          "q2": 12,
+          "q3": 12,
+          "q4": 12,
+          "q5": 12
+        },
+        "rms_kcal": 12.462716156270895,
+        "spearman": 0.6693525979438734
+      },
+      "spread": {
+        "n": 84,
+        "pearson": 0.8284388333010961,
+        "quintile_spread": {
+          "q1": 17,
+          "q2": 17,
+          "q3": 17,
+          "q4": 16,
+          "q5": 17
+        },
+        "rms_kcal": 17.988176081158162,
+        "spearman": 0.8285714285714286
+      }
+    },
+    "residual_scatter": [
+      {
+        "f_dft_kcal": 21.75624276567473,
+        "f_xtb_kcal": 18.543495178222656,
+        "residual_kcal": -3.212747587452075,
+        "row": 14849,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 25.004329084917167,
+        "f_xtb_kcal": 39.50312042236328,
+        "residual_kcal": 14.498791337446114,
+        "row": 15899,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 54.14953465388068,
+        "f_xtb_kcal": 47.7270622253418,
+        "residual_kcal": -6.422472428538882,
+        "row": 21674,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 5.068062632995335,
+        "f_xtb_kcal": 15.12498950958252,
+        "residual_kcal": 10.056926876587184,
+        "row": 25240,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 26.642769270327907,
+        "f_xtb_kcal": 10.674320220947266,
+        "residual_kcal": -15.968449049380641,
+        "row": 25293,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 27.11581809064878,
+        "f_xtb_kcal": 39.05884552001953,
+        "residual_kcal": 11.943027429370751,
+        "row": 25615,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 23.346108637482565,
+        "f_xtb_kcal": 9.13825511932373,
+        "residual_kcal": -14.207853518158835,
+        "row": 28945,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 10.843253811725656,
+        "f_xtb_kcal": 30.522994995117188,
+        "residual_kcal": 19.67974118339153,
+        "row": 29427,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -5.903242628813473,
+        "f_xtb_kcal": -2.9909873008728027,
+        "residual_kcal": 2.91225532794067,
+        "row": 43437,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 19.810528344983307,
+        "f_xtb_kcal": 24.45306968688965,
+        "residual_kcal": 4.642541341906341,
+        "row": 44433,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -11.369797641987098,
+        "f_xtb_kcal": -15.15237808227539,
+        "residual_kcal": -3.7825804402882923,
+        "row": 47580,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 29.657739969118683,
+        "f_xtb_kcal": 36.535274505615234,
+        "residual_kcal": 6.877534536496551,
+        "row": 51494,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 32.650043960889214,
+        "f_xtb_kcal": 38.84598159790039,
+        "residual_kcal": 6.195937637011177,
+        "row": 52263,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -1.06402951004721,
+        "f_xtb_kcal": 9.197425842285156,
+        "residual_kcal": 10.261455352332366,
+        "row": 57917,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 31.46658263078417,
+        "f_xtb_kcal": 26.220844268798828,
+        "residual_kcal": -5.245738361985342,
+        "row": 57960,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 13.389987077051254,
+        "f_xtb_kcal": 21.888933181762695,
+        "residual_kcal": 8.498946104711441,
+        "row": 61750,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 14.00517390219753,
+        "f_xtb_kcal": 29.41539192199707,
+        "residual_kcal": 15.41021801979954,
+        "row": 62042,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 33.71583532990181,
+        "f_xtb_kcal": 15.965356826782227,
+        "residual_kcal": -17.75047850311958,
+        "row": 65225,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 16.576299007399907,
+        "f_xtb_kcal": 18.44595718383789,
+        "residual_kcal": 1.8696581764379836,
+        "row": 65256,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -6.378882732447689,
+        "f_xtb_kcal": -7.540102481842041,
+        "residual_kcal": -1.161219749394352,
+        "row": 92929,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 56.629235561329686,
+        "f_xtb_kcal": 36.3560791015625,
+        "residual_kcal": -20.273156459767186,
+        "row": 99844,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -1.4526366576736507,
+        "f_xtb_kcal": 4.530796051025391,
+        "residual_kcal": 5.983432708699041,
+        "row": 113356,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -3.792265176436185,
+        "f_xtb_kcal": 16.488544464111328,
+        "residual_kcal": 20.280809640547513,
+        "row": 128152,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 0.6530420313304419,
+        "f_xtb_kcal": 22.497159957885742,
+        "residual_kcal": 21.8441179265553,
+        "row": 138593,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 18.387045756157523,
+        "f_xtb_kcal": 26.57881736755371,
+        "residual_kcal": 8.191771611396188,
+        "row": 139602,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -29.456527328171397,
+        "f_xtb_kcal": -9.324919700622559,
+        "residual_kcal": 20.13160762754884,
+        "row": 146112,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 14.56166776639877,
+        "f_xtb_kcal": 31.694604873657227,
+        "residual_kcal": 17.132937107258456,
+        "row": 178646,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -2.4278806034207903,
+        "f_xtb_kcal": -14.372841835021973,
+        "residual_kcal": -11.944961231601182,
+        "row": 189792,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 38.88543041025064,
+        "f_xtb_kcal": 35.05335998535156,
+        "residual_kcal": -3.8320704248990793,
+        "row": 190490,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 42.257776902953324,
+        "f_xtb_kcal": 15.640424728393555,
+        "residual_kcal": -26.61735217455977,
+        "row": 192397,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 22.55025492081466,
+        "f_xtb_kcal": 5.686864852905273,
+        "residual_kcal": -16.863390067909386,
+        "row": 192441,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -19.061267100761196,
+        "f_xtb_kcal": -21.339271545410156,
+        "residual_kcal": -2.2780044446489605,
+        "row": 192720,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 6.9915294514316955,
+        "f_xtb_kcal": 19.40840721130371,
+        "residual_kcal": 12.416877759872015,
+        "row": 193219,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -3.689439518000757,
+        "f_xtb_kcal": -16.531002044677734,
+        "residual_kcal": -12.841562526676977,
+        "row": 196616,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 6.2937314212454645,
+        "f_xtb_kcal": 18.231584548950195,
+        "residual_kcal": 11.93785312770473,
+        "row": 202716,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 23.943291748316025,
+        "f_xtb_kcal": 33.96649932861328,
+        "residual_kcal": 10.023207580297257,
+        "row": 203087,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 11.168367601554456,
+        "f_xtb_kcal": 24.710784912109375,
+        "residual_kcal": 13.542417310554919,
+        "row": 203529,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 24.152231321381155,
+        "f_xtb_kcal": 19.642576217651367,
+        "residual_kcal": -4.509655103729788,
+        "row": 209704,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 15.33723017419942,
+        "f_xtb_kcal": 33.64163589477539,
+        "residual_kcal": 18.30440572057597,
+        "row": 211519,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 5.782919658132049,
+        "f_xtb_kcal": 12.415167808532715,
+        "residual_kcal": 6.632248150400666,
+        "row": 214189,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 5.386020710192216,
+        "f_xtb_kcal": 26.202068328857422,
+        "residual_kcal": 20.816047618665205,
+        "row": 216354,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 19.638413514072724,
+        "f_xtb_kcal": 23.421180725097656,
+        "residual_kcal": 3.7827672110249324,
+        "row": 216881,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 6.997516394370703,
+        "f_xtb_kcal": 16.655675888061523,
+        "residual_kcal": 9.658159493690821,
+        "row": 219940,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -12.948781287812483,
+        "f_xtb_kcal": -16.26492691040039,
+        "residual_kcal": -3.316145622587907,
+        "row": 220360,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 3.383800745021567,
+        "f_xtb_kcal": 16.61048126220703,
+        "residual_kcal": 13.226680517185464,
+        "row": 223384,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 22.406481094065004,
+        "f_xtb_kcal": 36.523780822753906,
+        "residual_kcal": 14.117299728688902,
+        "row": 223402,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 25.58632771271901,
+        "f_xtb_kcal": 24.651365280151367,
+        "residual_kcal": -0.9349624325676444,
+        "row": 223436,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -16.581544874267106,
+        "f_xtb_kcal": 11.4976224899292,
+        "residual_kcal": 28.079167364196305,
+        "row": 225086,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -1.8374514630067242,
+        "f_xtb_kcal": -18.728515625,
+        "residual_kcal": -16.891064161993278,
+        "row": 227624,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -2.658256974376908,
+        "f_xtb_kcal": -3.007439136505127,
+        "residual_kcal": -0.34918216212821873,
+        "row": 230277,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 18.158350736608515,
+        "f_xtb_kcal": 4.7410149574279785,
+        "residual_kcal": -13.417335779180537,
+        "row": 230365,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 23.02492173030804,
+        "f_xtb_kcal": 32.303916931152344,
+        "residual_kcal": 9.278995200844303,
+        "row": 235279,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 4.472757972381582,
+        "f_xtb_kcal": 32.733154296875,
+        "residual_kcal": 28.260396324493417,
+        "row": 237146,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 14.831332918430805,
+        "f_xtb_kcal": 26.8697509765625,
+        "residual_kcal": 12.038418058131695,
+        "row": 241346,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -9.949128720312933,
+        "f_xtb_kcal": -1.860532522201538,
+        "residual_kcal": 8.088596198111395,
+        "row": 241796,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 23.124479663220715,
+        "f_xtb_kcal": 24.72542381286621,
+        "residual_kcal": 1.6009441496454961,
+        "row": 255734,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 6.138258658659864,
+        "f_xtb_kcal": 4.698373317718506,
+        "residual_kcal": -1.4398853409413581,
+        "row": 257637,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 22.2652451152236,
+        "f_xtb_kcal": 23.745277404785156,
+        "residual_kcal": 1.4800322895615565,
+        "row": 258350,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 14.933242589942846,
+        "f_xtb_kcal": 34.5009765625,
+        "residual_kcal": 19.567733972557154,
+        "row": 259077,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 24.43267925054007,
+        "f_xtb_kcal": 31.583847045898438,
+        "residual_kcal": 7.1511677953583686,
+        "row": 262042,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 50.17788978864372,
+        "f_xtb_kcal": 57.868019104003906,
+        "residual_kcal": 7.690129315360188,
+        "row": 274506,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -6.308430890882761,
+        "f_xtb_kcal": 1.8253248929977417,
+        "residual_kcal": 8.133755783880503,
+        "row": 285395,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 60.05762076914505,
+        "f_xtb_kcal": 45.546043395996094,
+        "residual_kcal": -14.51157737314896,
+        "row": 349548,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 40.255308920852976,
+        "f_xtb_kcal": 41.32095718383789,
+        "residual_kcal": 1.065648262984915,
+        "row": 387265,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -7.385315320339438,
+        "f_xtb_kcal": 18.116674423217773,
+        "residual_kcal": 25.50198974355721,
+        "row": 388254,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 59.11961286477018,
+        "f_xtb_kcal": 44.727638244628906,
+        "residual_kcal": -14.391974620141276,
+        "row": 388816,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 43.04408375506225,
+        "f_xtb_kcal": 34.406978607177734,
+        "residual_kcal": -8.637105147884519,
+        "row": 413148,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 30.36961856509045,
+        "f_xtb_kcal": 41.29097366333008,
+        "residual_kcal": 10.921355098239626,
+        "row": 420555,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 27.001342450302193,
+        "f_xtb_kcal": 28.471542358398438,
+        "residual_kcal": 1.4701999080962445,
+        "row": 426065,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 4.6674983871893,
+        "f_xtb_kcal": 16.295368194580078,
+        "residual_kcal": 11.627869807390777,
+        "row": 432412,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 15.088701481476912,
+        "f_xtb_kcal": 18.14138412475586,
+        "residual_kcal": 3.0526826432789473,
+        "row": 434495,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 6.201587126246971,
+        "f_xtb_kcal": 28.448486328125,
+        "residual_kcal": 22.24689920187803,
+        "row": 443656,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -3.2887487719457797,
+        "f_xtb_kcal": 5.485395431518555,
+        "residual_kcal": 8.774144203464335,
+        "row": 457165,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -0.9672214718490327,
+        "f_xtb_kcal": 21.00545310974121,
+        "residual_kcal": 21.972674581590244,
+        "row": 460208,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -14.467816680160633,
+        "f_xtb_kcal": 5.813634395599365,
+        "residual_kcal": 20.281451075759996,
+        "row": 464617,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 7.9671650421316205,
+        "f_xtb_kcal": 18.326171875,
+        "residual_kcal": 10.35900683286838,
+        "row": 469001,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 29.393696518845648,
+        "f_xtb_kcal": 41.0814323425293,
+        "residual_kcal": 11.68773582368365,
+        "row": 496882,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 12.776515134906436,
+        "f_xtb_kcal": 20.75486183166504,
+        "residual_kcal": 7.978346696758603,
+        "row": 497816,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 35.29002528465127,
+        "f_xtb_kcal": 31.613245010375977,
+        "residual_kcal": -3.676780274275295,
+        "row": 552262,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 18.21160809069284,
+        "f_xtb_kcal": 32.09270477294922,
+        "residual_kcal": 13.881096682256377,
+        "row": 559287,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 20.530247271524885,
+        "f_xtb_kcal": 27.67223358154297,
+        "residual_kcal": 7.141986310018083,
+        "row": 577123,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 76.29683648187235,
+        "f_xtb_kcal": 57.139095306396484,
+        "residual_kcal": -19.157741175475863,
+        "row": 581446,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 30.937681970846448,
+        "f_xtb_kcal": 31.12192726135254,
+        "residual_kcal": 0.18424529050609095,
+        "row": 588983,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 47.508931059413186,
+        "f_xtb_kcal": 48.46768569946289,
+        "residual_kcal": 0.9587546400497047,
+        "row": 589146,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 16.682631852604768,
+        "f_xtb_kcal": 30.387935638427734,
+        "residual_kcal": 13.705303785822966,
+        "row": 594975,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 52.38490568037542,
+        "f_xtb_kcal": 40.34982681274414,
+        "residual_kcal": -12.035078867631277,
+        "row": 597591,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 40.69969128790237,
+        "f_xtb_kcal": 38.432106018066406,
+        "residual_kcal": -2.267585269835962,
+        "row": 601582,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 38.515396226594795,
+        "f_xtb_kcal": 23.83230972290039,
+        "residual_kcal": -14.683086503694405,
+        "row": 603512,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -14.982045169616748,
+        "f_xtb_kcal": 3.201153039932251,
+        "residual_kcal": 18.183198209548998,
+        "row": 607176,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 58.17663180714607,
+        "f_xtb_kcal": 34.62531280517578,
+        "residual_kcal": -23.551319001970292,
+        "row": 614008,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -11.130500288260908,
+        "f_xtb_kcal": 8.150946617126465,
+        "residual_kcal": 19.281446905387373,
+        "row": 616660,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 8.82595847603681,
+        "f_xtb_kcal": 13.087501525878906,
+        "residual_kcal": 4.261543049842096,
+        "row": 618942,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 2.3633306829400857,
+        "f_xtb_kcal": 10.449108123779297,
+        "residual_kcal": 8.08577744083921,
+        "row": 623068,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 9.314425918204849,
+        "f_xtb_kcal": 20.444538116455078,
+        "residual_kcal": 11.13011219825023,
+        "row": 645629,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 11.39280970335543,
+        "f_xtb_kcal": 21.917089462280273,
+        "residual_kcal": 10.524279758924843,
+        "row": 652789,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 17.844370337692972,
+        "f_xtb_kcal": 33.52618408203125,
+        "residual_kcal": 15.681813744338278,
+        "row": 658970,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -18.29169723334472,
+        "f_xtb_kcal": -13.938041687011719,
+        "residual_kcal": 4.353655546333002,
+        "row": 682312,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -5.037772362822062,
+        "f_xtb_kcal": 14.64869499206543,
+        "residual_kcal": 19.68646735488749,
+        "row": 687974,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 2.093610928173615,
+        "f_xtb_kcal": 23.898466110229492,
+        "residual_kcal": 21.804855182055878,
+        "row": 696481,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -3.7780808217097963,
+        "f_xtb_kcal": 15.22349739074707,
+        "residual_kcal": 19.001578212456867,
+        "row": 702023,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -13.829379156228672,
+        "f_xtb_kcal": 0.3251055181026459,
+        "residual_kcal": 14.154484674331318,
+        "row": 712402,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -19.27006899509516,
+        "f_xtb_kcal": -2.943377733230591,
+        "residual_kcal": 16.326691261864568,
+        "row": 716127,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 69.40196215042053,
+        "f_xtb_kcal": 51.81645202636719,
+        "residual_kcal": -17.585510124053343,
+        "row": 725644,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 31.419529366225436,
+        "f_xtb_kcal": 32.01526641845703,
+        "residual_kcal": 0.5957370522315948,
+        "row": 730604,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 9.746656868650366,
+        "f_xtb_kcal": 22.6339168548584,
+        "residual_kcal": 12.887259986208033,
+        "row": 733019,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 11.54510614159989,
+        "f_xtb_kcal": 32.199092864990234,
+        "residual_kcal": 20.653986723390346,
+        "row": 749505,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 2.01762768661722,
+        "f_xtb_kcal": 12.300366401672363,
+        "residual_kcal": 10.282738715055142,
+        "row": 763428,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 40.47674893821575,
+        "f_xtb_kcal": 35.77305221557617,
+        "residual_kcal": -4.703696722639577,
+        "row": 766852,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 70.60797283395688,
+        "f_xtb_kcal": 58.340911865234375,
+        "residual_kcal": -12.267060968722504,
+        "row": 783145,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 52.87148925879199,
+        "f_xtb_kcal": 49.2219123840332,
+        "residual_kcal": -3.649576874758786,
+        "row": 786058,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 22.94443513559122,
+        "f_xtb_kcal": 13.917409896850586,
+        "residual_kcal": -9.027025238740634,
+        "row": 788755,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 87.76363951462505,
+        "f_xtb_kcal": 58.502235412597656,
+        "residual_kcal": -29.2614041020274,
+        "row": 799433,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 50.22416166271287,
+        "f_xtb_kcal": 42.08804702758789,
+        "residual_kcal": -8.136114635124983,
+        "row": 800900,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -14.698346462148777,
+        "f_xtb_kcal": 23.454917907714844,
+        "residual_kcal": 38.15326436986362,
+        "row": 801642,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 21.299194845889417,
+        "f_xtb_kcal": 28.957130432128906,
+        "residual_kcal": 7.657935586239489,
+        "row": 810554,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 18.58823893938039,
+        "f_xtb_kcal": 27.175392150878906,
+        "residual_kcal": 8.587153211498517,
+        "row": 815912,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -6.624918095934461,
+        "f_xtb_kcal": 7.766923904418945,
+        "residual_kcal": 14.391842000353407,
+        "row": 823675,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 53.383701708400345,
+        "f_xtb_kcal": 47.30766296386719,
+        "residual_kcal": -6.076038744533157,
+        "row": 833968,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 15.050535422757132,
+        "f_xtb_kcal": 25.85062599182129,
+        "residual_kcal": 10.800090569064157,
+        "row": 839301,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -49.58450932310668,
+        "f_xtb_kcal": -16.44474220275879,
+        "residual_kcal": 33.13976712034789,
+        "row": 849196,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -8.583699761422613,
+        "f_xtb_kcal": 13.049975395202637,
+        "residual_kcal": 21.63367515662525,
+        "row": 850624,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 4.1605056831800535,
+        "f_xtb_kcal": 19.236635208129883,
+        "residual_kcal": 15.07612952494983,
+        "row": 864496,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -2.1682006029952667,
+        "f_xtb_kcal": 12.335262298583984,
+        "residual_kcal": 14.503462901579251,
+        "row": 870221,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -32.487570285185726,
+        "f_xtb_kcal": -4.8683624267578125,
+        "residual_kcal": 27.619207858427913,
+        "row": 874892,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 0.6650994646170555,
+        "f_xtb_kcal": 7.296054363250732,
+        "residual_kcal": 6.630954898633677,
+        "row": 885561,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 8.599255295171934,
+        "f_xtb_kcal": 23.66249656677246,
+        "residual_kcal": 15.063241271600527,
+        "row": 888197,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 4.218588171540141,
+        "f_xtb_kcal": 24.712448120117188,
+        "residual_kcal": 20.493859948577047,
+        "row": 897763,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 36.494923772198725,
+        "f_xtb_kcal": 49.72571563720703,
+        "residual_kcal": 13.230791865008307,
+        "row": 898507,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 4.173031570520518,
+        "f_xtb_kcal": 28.183855056762695,
+        "residual_kcal": 24.010823486242177,
+        "row": 905471,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -14.030479812531546,
+        "f_xtb_kcal": 2.83474063873291,
+        "residual_kcal": 16.865220451264456,
+        "row": 910389,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 22.20308183294416,
+        "f_xtb_kcal": 19.12324333190918,
+        "residual_kcal": -3.079838501034981,
+        "row": 910780,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 17.929769668321782,
+        "f_xtb_kcal": 21.191909790039062,
+        "residual_kcal": 3.2621401217172803,
+        "row": 915887,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 20.68604657685661,
+        "f_xtb_kcal": 20.579378128051758,
+        "residual_kcal": -0.10666844880485371,
+        "row": 918403,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -11.685357251883628,
+        "f_xtb_kcal": 4.044803142547607,
+        "residual_kcal": 15.730160394431236,
+        "row": 922784,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -4.637630161114081,
+        "f_xtb_kcal": 14.47311782836914,
+        "residual_kcal": 19.110747989483222,
+        "row": 928474,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -7.229221960372079,
+        "f_xtb_kcal": 8.789963722229004,
+        "residual_kcal": 16.019185682601083,
+        "row": 931297,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 66.39677730944784,
+        "f_xtb_kcal": 49.30992889404297,
+        "residual_kcal": -17.086848415404873,
+        "row": 966159,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 76.286716077508,
+        "f_xtb_kcal": 66.97723388671875,
+        "residual_kcal": -9.309482190789254,
+        "row": 977030,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -42.28759918777371,
+        "f_xtb_kcal": -1.9255338907241821,
+        "residual_kcal": 40.362065297049526,
+        "row": 981288,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 19.46282720791023,
+        "f_xtb_kcal": 33.33816146850586,
+        "residual_kcal": 13.87533426059563,
+        "row": 984660,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 18.8809164489113,
+        "f_xtb_kcal": 42.784881591796875,
+        "residual_kcal": 23.903965142885575,
+        "row": 991816,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 73.21365881907934,
+        "f_xtb_kcal": 65.64391326904297,
+        "residual_kcal": -7.569745550036373,
+        "row": 1003125,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 28.788090244802238,
+        "f_xtb_kcal": 43.39691162109375,
+        "residual_kcal": 14.608821376291512,
+        "row": 1004909,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -0.009472682822849179,
+        "f_xtb_kcal": 26.76359748840332,
+        "residual_kcal": 26.77307017122617,
+        "row": 1012270,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 49.7925091204275,
+        "f_xtb_kcal": 37.85765075683594,
+        "residual_kcal": -11.934858363591566,
+        "row": 1035852,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 64.70782754288585,
+        "f_xtb_kcal": 49.421546936035156,
+        "residual_kcal": -15.286280606850696,
+        "row": 1046258,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": -3.087538671685858,
+        "f_xtb_kcal": 23.278457641601562,
+        "residual_kcal": 26.36599631328742,
+        "row": 1050376,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 15.705391951737756,
+        "f_xtb_kcal": 26.372089385986328,
+        "residual_kcal": 10.666697434248572,
+        "row": 1057989,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 29.122498739500273,
+        "f_xtb_kcal": 25.960769653320312,
+        "residual_kcal": -3.1617290861799603,
+        "row": 1073701,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 51.1552432192275,
+        "f_xtb_kcal": 44.62015914916992,
+        "residual_kcal": -6.535084070057579,
+        "row": 1077834,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 18.353269677828443,
+        "f_xtb_kcal": 23.92323112487793,
+        "residual_kcal": 5.5699614470494865,
+        "row": 1078153,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 10.930386678655381,
+        "f_xtb_kcal": 20.013383865356445,
+        "residual_kcal": 9.082997186701064,
+        "row": 1080980,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 15.786490769141796,
+        "f_xtb_kcal": 33.03857421875,
+        "residual_kcal": 17.252083449608204,
+        "row": 1091138,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 9.892508458883848,
+        "f_xtb_kcal": 23.752979278564453,
+        "residual_kcal": 13.860470819680605,
+        "row": 1100298,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 22.62555827339043,
+        "f_xtb_kcal": 33.55792999267578,
+        "residual_kcal": 10.932371719285353,
+        "row": 1101723,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 8.956368542852411,
+        "f_xtb_kcal": 17.321334838867188,
+        "residual_kcal": 8.364966296014776,
+        "row": 1104344,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 2.4013553518443813,
+        "f_xtb_kcal": 16.53936767578125,
+        "residual_kcal": 14.138012323936868,
+        "row": 1112231,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -15.004636234793937,
+        "f_xtb_kcal": 11.880331993103027,
+        "residual_kcal": 26.884968227896962,
+        "row": 1129255,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 6.443326638335707,
+        "f_xtb_kcal": 18.289079666137695,
+        "residual_kcal": 11.845753027801988,
+        "row": 1138536,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 34.088987070931104,
+        "f_xtb_kcal": 35.73448181152344,
+        "residual_kcal": 1.6454947405923335,
+        "row": 1144843,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -15.23406167599299,
+        "f_xtb_kcal": 7.03316068649292,
+        "residual_kcal": 22.26722236248591,
+        "row": 1146803,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -13.618878969623132,
+        "f_xtb_kcal": 10.779314041137695,
+        "residual_kcal": 24.398193010760828,
+        "row": 1177189,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -40.42177825369298,
+        "f_xtb_kcal": -4.23061990737915,
+        "residual_kcal": 36.19115834631383,
+        "row": 1209509,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 39.23750686408029,
+        "f_xtb_kcal": 25.240798950195312,
+        "residual_kcal": -13.996707913884975,
+        "row": 1218722,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -38.3120474969306,
+        "f_xtb_kcal": -9.581968307495117,
+        "residual_kcal": 28.730079189435486,
+        "row": 1220475,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 26.124067481858486,
+        "f_xtb_kcal": 26.861202239990234,
+        "residual_kcal": 0.7371347581317487,
+        "row": 1242215,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -13.320557282731063,
+        "f_xtb_kcal": 3.1838326454162598,
+        "residual_kcal": 16.504389928147322,
+        "row": 1244188,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 4.408156817678151,
+        "f_xtb_kcal": 53.322349548339844,
+        "residual_kcal": 48.914192730661696,
+        "row": 1244320,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 10.499247539416654,
+        "f_xtb_kcal": -10.017315864562988,
+        "residual_kcal": -20.516563403979642,
+        "row": 1268040,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 12.15339407748555,
+        "f_xtb_kcal": 29.143253326416016,
+        "residual_kcal": 16.989859248930465,
+        "row": 1277831,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 52.176075042402196,
+        "f_xtb_kcal": 50.56175231933594,
+        "residual_kcal": -1.614322723066259,
+        "row": 1285337,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -48.80796043468815,
+        "f_xtb_kcal": -13.56340503692627,
+        "residual_kcal": 35.24455539776188,
+        "row": 1299317,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": -1.744239775622086,
+        "f_xtb_kcal": 22.246612548828125,
+        "residual_kcal": 23.99085232445021,
+        "row": 1303335,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 13.321051130888788,
+        "f_xtb_kcal": 8.148728370666504,
+        "residual_kcal": -5.1723227602222845,
+        "row": 1315028,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 40.99244605904123,
+        "f_xtb_kcal": 51.76985168457031,
+        "residual_kcal": 10.777405625529084,
+        "row": 1320345,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -26.396430896307503,
+        "f_xtb_kcal": 6.0332183837890625,
+        "residual_kcal": 32.42964928009657,
+        "row": 1326991,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -6.173927562844948,
+        "f_xtb_kcal": 8.893657684326172,
+        "residual_kcal": 15.06758524717112,
+        "row": 1348413,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 52.39950034034533,
+        "f_xtb_kcal": 13.24094009399414,
+        "residual_kcal": -39.158560246351186,
+        "row": 1350890,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 91.7462277553397,
+        "f_xtb_kcal": 43.51190185546875,
+        "residual_kcal": -48.23432589987095,
+        "row": 1420434,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 50.8724177025756,
+        "f_xtb_kcal": 39.117095947265625,
+        "residual_kcal": -11.755321755309978,
+        "row": 1441464,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -4.451760049518849,
+        "f_xtb_kcal": 5.270145893096924,
+        "residual_kcal": 9.721905942615773,
+        "row": 1470290,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 24.75822418019047,
+        "f_xtb_kcal": 31.74574851989746,
+        "residual_kcal": 6.98752433970699,
+        "row": 1471290,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 84.31402706875627,
+        "f_xtb_kcal": 45.07337188720703,
+        "residual_kcal": -39.24065518154924,
+        "row": 1480769,
+        "stratum": "carboxylate"
+      },
+      {
+        "f_dft_kcal": 11.952151738946302,
+        "f_xtb_kcal": -4.415180206298828,
+        "residual_kcal": -16.36733194524513,
+        "row": 1509317,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": -6.184140376133635,
+        "f_xtb_kcal": 4.426586151123047,
+        "residual_kcal": 10.61072652725668,
+        "row": 1530967,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 18.854712703079496,
+        "f_xtb_kcal": 38.1579475402832,
+        "residual_kcal": 19.303234837203707,
+        "row": 1555745,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 0.31403963893590214,
+        "f_xtb_kcal": 17.809772491455078,
+        "residual_kcal": 17.495732852519176,
+        "row": 1625764,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 8.007786360226184,
+        "f_xtb_kcal": 12.980992317199707,
+        "residual_kcal": 4.973205956973523,
+        "row": 1631427,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 8.076506374786241,
+        "f_xtb_kcal": 19.229324340820312,
+        "residual_kcal": 11.152817966034071,
+        "row": 1666285,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 39.37601825706028,
+        "f_xtb_kcal": 29.762432098388672,
+        "residual_kcal": -9.613586158671609,
+        "row": 1670137,
+        "stratum": "spread"
+      },
+      {
+        "f_dft_kcal": 32.64111983111679,
+        "f_xtb_kcal": 30.676776885986328,
+        "residual_kcal": -1.9643429451304613,
+        "row": 1685389,
+        "stratum": "core"
+      },
+      {
+        "f_dft_kcal": 16.771622243005396,
+        "f_xtb_kcal": 47.93849563598633,
+        "residual_kcal": 31.166873392980932,
+        "row": 1687548,
+        "stratum": "core"
+      }
+    ],
+    "rms_overall_kcal": 16.576911916926377,
+    "ruling2_note": "'the top stratum' := the spread stratum (Ruling 2, 2026-10-28): the top region of the landscape is 100 % spread-stratum; the briefing-rev-2 equation with the core stratum is retired",
+    "spearman_overall": 0.815190706128096,
+    "top_stratum": "spread"
+  },
+  "provenance": {
+    "constant_kcal_per_eh": 627.5094740631,
+    "engine": {
+      "list_k": 100,
+      "workers": 16
+    },
+    "geometries": {
+      "p": "data/derived/structures/prephenate_TSframe.xyz",
+      "p_sha256": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32",
+      "reactant": "data/derived/structures/chorismate_reactive_TSframe.xyz",
+      "reactant_sha256": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd",
+      "ts": "data/derived/structures/ts_opt.xyz",
+      "ts_sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3"
+    },
+    "landscape": "canonical",
+    "landscape_artifacts_sha256": {
+      "cloud": {
+        "path": "data/derived/candidates_v2.npy",
+        "sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71"
+      },
+      "domain_exclusions.json": "412a60b92bfc51605fd05aa938b07dde6b0b493d80f8ba8039e0845268f01f9c",
+      "e_r.npy": "4f0e5eb5b96d1c35f5b6e5b302918fe672261fc9da2abdd6b1408e4beff2ca80",
+      "e_ts.npy": "9d85af53911a2de18ef5f573ba3b530a724dfb960d6522323b039c1503aa3ca8",
+      "enumeration_summary.json": "328ff7b08db2aaea7d5190499e790d166e2e2642776c0b47160fabce214930ed",
+      "f.npy": "85b5a6c0515b81abdff7527593d8842a46d978831690e6c7b03e95d79eb66282",
+      "pair_indices.npy": "8ef0443923ce7447e20dbab97655ae76aed478445aa33876a71507f50a178910",
+      "sign_index.npy": "2ba72bf31967cd6b7d26950cb47310a8ee3f25a435ce4b6d70a0354ef6aa864e"
+    },
+    "landscape_summary_sha256": "328ff7b08db2aaea7d5190499e790d166e2e2642776c0b47160fabce214930ed",
+    "provider": {
+      "fitness_id": "orca_r2scan3c_v2",
+      "lot": "r2SCAN-3c TightSCF",
+      "maxcore_mb": 1500,
+      "pal": 1,
+      "pc_channel": {
+        "directive": "%pointcharges \"<abs path to .pc file>\"",
+        "file": "first line = charge count, then one 'q x y z' line per charge; q written as the literal +1.0 / -1.0",
+        "units": "angstrom, positions passed through unchanged (pinned empirically v1 2026-09-25; re-verified by the asymptote embedding gate in the test suite)"
+      }
+    },
+    "schema": "arbitration_v1"
+  },
+  "purpose": "step D: the certified optimum + the aggregate trail",
+  "schema": "arbitration_v1",
+  "step": "D",
+  "top100_rank_correlation": {
+    "n": 100,
+    "note": "the xTB oracle rank vs the DFT rank within the re-ranked top-100 (0-based positions; ties broken by row order \u2014 dense at the DFT side)",
+    "spearman": 0.5083108310831083
+  }
+}

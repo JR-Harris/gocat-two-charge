@@ -1,0 +1,48 @@
+{
+  "method": "r2SCAN-3c Opt Freq TightSCF",
+  "pal": 8,
+  "maxcore_mb": 1500,
+  "ts_energy_eh": -838.244178868391,
+  "reactive_reactant": {
+    "source": "data/derived/orca_v2/step3_irc/irc_IRC_F.xyz",
+    "output": "data/derived/structures/chorismate_reactive_opt.xyz",
+    "classification": "reactant-like (O1-C7 intact, C11-C16 open)",
+    "energy_eh": -838.267633356973,
+    "opt_converged": true,
+    "n_modes": 78,
+    "n_imaginary": 0,
+    "n_soft_imaginary": 0,
+    "n_fragments": 1,
+    "key_distances": {
+      "O1-C7 (breaking)": 1.4671538492636005,
+      "C11-C16 (forming)": 3.3591751353327797,
+      "O1-C14 (->C=O)": 1.3752852011761052,
+      "C14-C16": 1.333262094979078,
+      "C7-C9": 1.4908740377352476,
+      "C9-C11": 1.3449779412235727
+    }
+  },
+  "prephenate": {
+    "source": "data/derived/orca_v2/step3_irc/irc_IRC_B.xyz",
+    "output": "data/derived/structures/prephenate_opt_chororder.xyz",
+    "classification": "product-like (O1-C7 broken, C11-C16 formed)",
+    "energy_eh": -838.287951169713,
+    "opt_converged": true,
+    "n_modes": 78,
+    "n_imaginary": 0,
+    "n_soft_imaginary": 0,
+    "n_fragments": 1,
+    "key_distances": {
+      "O1-C7 (breaking)": 3.4534896730374043,
+      "C11-C16 (forming)": 1.567650941276788,
+      "O1-C14 (->C=O)": 1.2079822156430946,
+      "C14-C16": 1.5057780930618563,
+      "C7-C9": 1.3285607039597398,
+      "C9-C11": 1.5087844004817255
+    }
+  },
+  "barrier_from_reactive_R_kcal_mol": 14.717913794467899,
+  "barrier_from_nonreactive_R_kcal_mol": 16.90375737354949,
+  "folding_penalty_kcal_mol": -2.185843579081591,
+  "reaction_energy_kcal_mol": -12.749619986601168
+}

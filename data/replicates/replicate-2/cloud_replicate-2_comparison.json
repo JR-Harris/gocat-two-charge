@@ -1,0 +1,198 @@
+{
+ "schema": "cloud_comparison_v1",
+ "replicate": "replicate-2",
+ "roll": 2,
+ "target_recorded_roll": 0,
+ "same_realization_branch": false,
+ "utc": "2026-10-14T13:14:43+00:00",
+ "identity": {
+  "gates": {
+   "cloud_file_sha_distinct": {
+    "pass": true,
+    "expected_to_differ": false,
+    "replicate_cloud_sha256": "5811aec7bbd6fd352700ae67962c22673dc4fda7864a87546141f1ec8c71b797",
+    "replicate_raw_sha256": "bfe4b5e461b9a0fcba151ea992d17a13b427f95be6e7a31a4ca3fb388cd4fa97",
+    "canonical_array_sha256s": {
+     "candidates_v2.npy": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+     "candidates_v2_raw.npy": "a81d22e7c3838526ca0ebf826f96036d9e2f26b62e864b0a11c2c25288199c88",
+     "candidates_v2_provenance.npy": "f50ac98f8716abd6cfe8bdddd76ce08dc4440c9ad0c79b981c4a237e79ff46b8",
+     "cloud_v2_summary.json": "6b1675cb04820b742c5da1180de49322ff9b9f793f839a66cf0b81522d239143"
+    }
+   },
+   "row_bitwise_distinct": {
+    "pass": true,
+    "rows_matching_a_canonical_row": 0,
+    "projected_matches": 0,
+    "raw_matches": 0,
+    "reverse_matches": 0
+   },
+   "gates_all_pass": true
+  },
+  "gates_all_pass": true,
+  "note": "the comparison gates (spec 4 + the 2026-10-14 generalization): a different roll = the refusal gates (identical-sha + zero-bitwise rows; the did-you-redraw detector); the same roll = the agreement gate (the measured re-derivation band); everything else is descriptive"
+ },
+ "descriptive": {
+  "note": "difference metrics are RECORDED ONLY, not gates: a strongly-different realization is a valid replicate (the entire point of the fresh draw)",
+  "nearest_canonical_point_distances_A": {
+   "replicate_to_canonical": {
+    "mean_A": 0.1889900641605833,
+    "median_A": 0.19888208639463895,
+    "max_A": 0.35800847545406883,
+    "min_A": 0.003913564849153021,
+    "std_A": 0.07627469840079507,
+    "quantiles_A": {
+     "q0": 0.003913564849153021,
+     "q0.01": 0.021277952597355213,
+     "q0.05": 0.05211207332710648,
+     "q0.1": 0.07639052170138785,
+     "q0.25": 0.1312723348381225,
+     "q0.5": 0.19888208639463895,
+     "q0.75": 0.25122789710733406,
+     "q0.9": 0.28060787901531176,
+     "q0.95": 0.2961302046379176,
+     "q0.99": 0.3204644560379147,
+     "q1": 0.35800847545406883
+    }
+   },
+   "canonical_to_replicate": {
+    "mean_A": 0.18862040322106358,
+    "median_A": 0.19888208639463895,
+    "max_A": 0.3378177929602296,
+    "min_A": 0.003913564849153021,
+    "std_A": 0.0758411733628558,
+    "quantiles_A": {
+     "q0": 0.003913564849153021,
+     "q0.01": 0.021277952597355213,
+     "q0.05": 0.05211207332710648,
+     "q0.1": 0.07639052170138785,
+     "q0.25": 0.1312723348381225,
+     "q0.5": 0.19888208639463895,
+     "q0.75": 0.25039671725763074,
+     "q0.9": 0.2803739840274357,
+     "q0.95": 0.29771939153100363,
+     "q0.99": 0.31866269975333755,
+     "q1": 0.3378177929602296
+    }
+   },
+   "hausdorff_A": 0.35800847545406883
+  },
+  "deltas_vs_canonical_recorded": {
+   "n": 0,
+   "mesh_area_A2": 0.0,
+   "nn_mean_A": -0.0004618116450860743,
+   "nn_cv": -0.0010087402883188351
+  },
+  "provenance_class_deltas": {
+   "state_counts": {
+    "replicate": {
+     "TS": 6,
+     "R": 233,
+     "P": 243,
+     "path": 446
+    },
+    "canonical": {
+     "TS": 0,
+     "R": 220,
+     "P": 251,
+     "path": 457
+    },
+    "delta": {
+     "TS": 6,
+     "R": 13,
+     "P": -8,
+     "path": -11
+    }
+   },
+   "state_atom_joint_delta": {
+    "TS:14": 1,
+    "TS:18": 1,
+    "TS:19": 2,
+    "TS:22": 1,
+    "TS:23": 1,
+    "R:0": -2,
+    "R:1": 0,
+    "R:2": 3,
+    "R:3": 4,
+    "R:4": -5,
+    "R:5": -2,
+    "R:8": 1,
+    "R:10": 1,
+    "R:11": 3,
+    "R:12": 3,
+    "R:14": 2,
+    "R:15": 0,
+    "R:16": 1,
+    "R:17": 1,
+    "R:18": 0,
+    "R:19": -1,
+    "R:20": 3,
+    "R:21": -3,
+    "R:22": 2,
+    "R:23": -1,
+    "R:24": 2,
+    "R:25": 1,
+    "P:0": -2,
+    "P:1": 1,
+    "P:2": -1,
+    "P:3": 6,
+    "P:4": -1,
+    "P:5": -2,
+    "P:6": 1,
+    "P:7": -1,
+    "P:8": -2,
+    "P:9": -3,
+    "P:13": 1,
+    "P:14": 1,
+    "P:16": 1,
+    "P:17": 1,
+    "P:18": -1,
+    "P:19": 1,
+    "P:20": -1,
+    "P:21": -1,
+    "P:23": 1,
+    "P:24": -3,
+    "P:25": -4,
+    "path:0": 5,
+    "path:1": -5,
+    "path:2": 0,
+    "path:3": 1,
+    "path:4": -2,
+    "path:5": 1,
+    "path:6": 0,
+    "path:7": 1,
+    "path:8": -6,
+    "path:9": 2,
+    "path:11": -1,
+    "path:12": 1,
+    "path:13": -3,
+    "path:14": -3,
+    "path:15": 0,
+    "path:16": -7,
+    "path:17": -1,
+    "path:18": 7,
+    "path:19": -4,
+    "path:20": 0,
+    "path:21": 0,
+    "path:22": 1,
+    "path:23": -3,
+    "path:24": 3,
+    "path:25": 2
+   }
+  },
+  "canonical_rederivability_side_fact": "measured 2026-10-14 (fixture probe, the ruling's record): the canonical cloud is re-derivable on this pin to ~4.3e-12 A max coordinate delta -- recorded, no action"
+ },
+ "canonical_references": {
+  "root": "data/derived",
+  "sha256": {
+   "candidates_v2.npy": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+   "candidates_v2_raw.npy": "a81d22e7c3838526ca0ebf826f96036d9e2f26b62e864b0a11c2c25288199c88",
+   "candidates_v2_provenance.npy": "f50ac98f8716abd6cfe8bdddd76ce08dc4440c9ad0c79b981c4a237e79ff46b8",
+   "cloud_v2_summary.json": "6b1675cb04820b742c5da1180de49322ff9b9f793f839a66cf0b81522d239143"
+  },
+  "role": "READ-ONLY references (the gates + the recorded values); nothing under data/derived/ is written"
+ },
+ "artifacts": {
+  "summary": "cloud_replicate-2_summary.json",
+  "summary_sha256": "503cf6d1d3e41ec48c53fb52c54d6a5b3b994428cdf06dacba8eba1b7d4d2e03"
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "config": {
+    "idx_i": 435,
+    "idx_j": 442,
+    "sign_i": -1.0,
+    "sign_j": -1.0
+  },
+  "dE_rxn_kcal": -40.147048416750025,
+  "e_p_eh": -838.40137732345,
+  "e_r_eh_dft_record": -838.337398929376,
+  "e_ts_eh_dft_record": -838.551440443246,
+  "executed": true,
+  "key": "da1a822677149b8791f2de576f88bca8d87911a9bfd9f9ac09611395164d437f",
+  "kind": "p",
+  "landscape": "canonical",
+  "lot": "r2SCAN-3c TightSCF",
+  "maxcore_mb": 1500,
+  "pal": 1,
+  "quench": true,
+  "row": 1224223,
+  "schema": "arbitration_v1",
+  "step": "E",
+  "utc": "2026-10-28T23:42:20.432390+00:00",
+  "wall_s": 330.73420076099865
+}

@@ -1,0 +1,207 @@
+{
+  "method": "exact watertight union (manifold) of per-atom Bondi icospheres (subdiv 3) over the whole substrate journey -- the TS + every frame of the v2 IRC trajectory (TS-frame native by IRC construction) + linear interpolants closing the end gaps to the gripped R and P -- Lloyd/CVT-sampled at 0.5 A target spacing with the v1 on-mesh projection fix; every point carries its construction provenance (state, atom) and a nearest_TS_atom class",
+  "convention": "points are (n,3) float64 in the TS frame",
+  "timestamp": "2026-10-07T21:17:39+00:00",
+  "bondi_radii": {
+    "H": 1.2,
+    "C": 1.7,
+    "O": 1.52
+  },
+  "icosphere_subdivisions": 3,
+  "densify_rule": {
+    "step_A": 0.25,
+    "rule": "k = ceil(d_max / 0.25 A) linear interpolants between adjacent journey geometries (0 when d_max <= 0.25 A)"
+  },
+  "spacing_law": {
+    "target_A": 0.5,
+    "C_init": 15.232572789527646,
+    "rule": "n = round((C_init / 0.5)^2)",
+    "v1_anchor_area_A2": 228.404502,
+    "v1_calibration_C": 14.366228
+  },
+  "n": 928,
+  "mesh_area_A2": 256.7826490037527,
+  "journey_counts": {
+    "traj_frames": 73,
+    "interpolated": 14,
+    "geometries_total": 90,
+    "spheres_total": 2340
+  },
+  "frame_gates": {
+    "image0_vs_ts": {
+      "observed_A": 0.31120207803908023,
+      "tol_A": 0.5,
+      "v1_scoping_anchor_A": 0.186,
+      "pass": true
+    },
+    "endpoint_pairing": {
+      "reactant_like_endpoint_loop_rmsd_A": 0.14294590455514772,
+      "product_like_endpoint_loop_rmsd_A": 0.23304278209697732,
+      "tol_A": 0.6,
+      "pass": true
+    }
+  },
+  "interpolations": [
+    {
+      "joint": "trj[0]",
+      "to": "gripped P",
+      "d_max_A": 1.5114911280840158,
+      "k": 7
+    },
+    {
+      "joint": "trj[-1]",
+      "to": "gripped R",
+      "d_max_A": 1.5709348509426913,
+      "k": 7
+    }
+  ],
+  "nn_stats": {
+    "mean_A": 0.4961727968401975,
+    "std_A": 0.03598797427099157,
+    "cv": 0.0725311312917105,
+    "min_A": 0.3366025578255906,
+    "max_A": 0.6035937707815193,
+    "cv_threshold": 0.1,
+    "target_A": 0.5,
+    "pass": true
+  },
+  "provenance_split": {
+    "TS": 0.0,
+    "R": 0.23706896551724138,
+    "P": 0.2704741379310345,
+    "path": 0.49245689655172414
+  },
+  "ts_envelope_proximity": {
+    "fractions_signed_max_depth": {
+      "abs_depth_le_0p01": 0.11530172413793104,
+      "depth_ge_minus_0p5": 0.8512931034482759
+    },
+    "fractions_unsigned_min_sphere_off": {
+      "min_sphere_off_le_0p01": 0.11530172413793104,
+      "min_sphere_off_le_0p05": 0.2801724137931034
+    },
+    "scoping_anchors": {
+      "ts_contact": 0.298,
+      "within_0p5": 0.856
+    },
+    "note": "point-level measures; the scoping numbers are sanity anchors (report deltas; not gates)"
+  },
+  "gates": {
+    "shape_dtype": {
+      "n": 928,
+      "shape": [
+        928,
+        3
+      ],
+      "dtype": "float64",
+      "pass": true
+    },
+    "bondi_conformance_A": {
+      "max_abs_envelope_depth_A": 0.0074252649978581164,
+      "tol_A": 0.01,
+      "pass": true
+    },
+    "projection_residual_A": {
+      "max_A": 6.337273226263655e-15,
+      "tol_A": 1e-09,
+      "pass": true
+    },
+    "nn_spacing_A": {
+      "mean_A": 0.4961727968401975,
+      "std_A": 0.03598797427099157,
+      "cv": 0.0725311312917105,
+      "min_A": 0.3366025578255906,
+      "max_A": 0.6035937707815193,
+      "cv_threshold": 0.1,
+      "target_A": 0.5,
+      "pass": true
+    },
+    "projection_displacement_A": {
+      "mean_A": 0.01892919749648968,
+      "max_A": 0.09936365120641537,
+      "v1_anchor": {
+        "mean": 0.021,
+        "max": 0.0998
+      }
+    },
+    "interpolation_corridor_A": {
+      "max_depth_A": 0.005999449279964875,
+      "tol_A": 0.01,
+      "n_interpolated_spheres": 364,
+      "pass": true,
+      "note": "no point may sit deep inside any interpolated-frame envelope (a deeper point would mean the dense sweep corridor did not close)"
+    },
+    "provenance_completeness": {
+      "labeled": 928,
+      "total": 928,
+      "max_origin_contact_err_A": 0.007052165,
+      "pass": true
+    },
+    "spacing_law_reanchor": {
+      "C_achieved": 15.114957768147413,
+      "auxiliary_runs": [
+        {
+          "n": 714,
+          "kind": "coarser",
+          "mean_nn_A": 0.5624213955220867,
+          "predicted_A": 0.5656630777707282,
+          "off_fraction": 0.00573076514277183,
+          "pass": true
+        },
+        {
+          "n": 1206,
+          "kind": "finer",
+          "mean_nn_A": 0.4374015605476129,
+          "predicted_A": 0.43524449232994183,
+          "off_fraction": 0.004955991989982262,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "tol_fraction": 0.03
+    },
+    "hull_area_ratio": {
+      "projected_over_raw_hull": 1.007228649548239,
+      "band": [
+        0.99,
+        1.01
+      ],
+      "pass": true,
+      "note": "hull(projected cloud).area / hull(raw cloud).area -- the v1 carry-over coverage metric, gated per Jonny's 2026-10-07 ruling"
+    },
+    "hull_area_vs_mesh_record": {
+      "projected_hull_over_mesh_area": 0.9040350787072652,
+      "point_hull_A2": 232.1405223027676,
+      "mesh_area_A2": 256.7826490037527,
+      "note": "recorded only, NOT gated: the convex hull cannot reproduce a concave swept surface's area by definition (the surfaced concavity artifact of the briefed hull-vs-mesh gate; the ruling moved the gate to the v1 proj/raw metric)"
+    }
+  },
+  "gates_all_pass": true,
+  "hull_areas_A2": {
+    "point_hull": 232.1405223027676,
+    "raw_hull": 230.47450289155995
+  },
+  "sha256": {
+    "inputs": {
+      "data/derived/structures/ts_opt.xyz": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+      "data/derived/structures/chorismate_reactive_TSframe.xyz": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd",
+      "data/derived/structures/prephenate_TSframe.xyz": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32",
+      "data/derived/structures/chorismate_reactive_opt.xyz": "fcd45ea36e09767248949cdd6ffaddc94f9bd699dcf4f7bc5443f8130d6e3c5d",
+      "data/derived/structures/prephenate_opt_chororder.xyz": "bf1814ee93c4c641a405733872da4dca64ee32ce542efe3df9325817e18ff0a9",
+      "data/derived/ts_summary.json": "3fbfe216ded95ad2c1738a8363ae743c8e956ba2584b691f55dcbf9919320c9e",
+      "data/derived/alignment_summary.json": "94be8ec77dfd249041e1a378d8ee31ef9ad348152a644ca1ad815c119468d7db",
+      "data/derived/p_registration_summary.json": "873e8df1b29f219efe0e8dece4397cbde06d0db509d853590ecdff6025704950",
+      "data/derived/irc_endpoints_summary.json": "e12dfbda3479d39b532f737e4e0209af4cf00f470f64aed681d0c7d8f7ff055a",
+      "data/derived/orca_v2/step3_irc/irc_IRC_Full_trj.xyz": "af850da9b21daa8bca0f1e6991e43a47f343612f766ec5c2b7de148eb57f9f6d",
+      "data/derived/orca_v2/step3_irc/irc_IRC_F.xyz": "f80e62a1f858da91f2b60fe576cc8d19338273acdb385742ae51977051f553b9",
+      "data/derived/orca_v2/step3_irc/irc_IRC_B.xyz": "4dd91b50f1d4adc1cc4de8084f69aba3eb0fa8a4e0582b456ab29df921ab4939"
+    },
+    "outputs": {
+      "data/derived/candidates_v2.npy": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+      "data/derived/candidates_v2_raw.npy": "a81d22e7c3838526ca0ebf826f96036d9e2f26b62e864b0a11c2c25288199c88",
+      "data/derived/candidates_v2.xyz": "5a022e14a256651207361dc2143409520e9d6f9eb62d7821f3ae41fa52169d82",
+      "data/derived/candidates_v2_provenance.npy": "f50ac98f8716abd6cfe8bdddd76ce08dc4440c9ad0c79b981c4a237e79ff46b8",
+      "data/derived/candidates_v2_spheres.npy": "19d519c591dde13bf87e5895a1afd4f0374bf4b75c5d5e1607d3a5c1411d5044"
+    }
+  }
+}

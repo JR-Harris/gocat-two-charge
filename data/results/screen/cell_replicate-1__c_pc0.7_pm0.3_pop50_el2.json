@@ -1,0 +1,28 @@
+{
+ "landscape": "replicate-1",
+ "cell": [
+  0.7,
+  0.3,
+  50,
+  2
+ ],
+ "tag": "c_pc0.7_pm0.3_pop50_el2",
+ "G": 2500,
+ "n": 300,
+ "hits_eps1": 300,
+ "exact_identity": 300,
+ "qsum": 36935510,
+ "qmean": 123118.36666666667,
+ "wall_s": 1050.8,
+ "params": {
+  "pop_size": 50,
+  "tournament_k": 3,
+  "pc": 0.7,
+  "pm": 0.3,
+  "nn_k": 8,
+  "n_elite": 2,
+  "acceptance_margin": 0.0,
+  "use_descent": true,
+  "fence_rejection_cap": 1000
+ }
+}

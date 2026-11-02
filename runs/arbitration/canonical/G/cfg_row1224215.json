@@ -1,0 +1,69 @@
+{
+  "config": {
+    "idx_i": 435,
+    "idx_j": 440,
+    "sign_i": -1.0,
+    "sign_j": -1.0
+  },
+  "deviation_report": "spec section 6.3 (question resolved): plain wB97M is UNRECOGNIZED in the installed ORCA 6.1.1 (measured 2026-10-28, single-atom probe job: 'INPUT ERROR UNRECOGNIZED OR DUPLICATED KEYWORD(S) IN SIMPLE INPUT LINE / WB97M'; the installed tree ships no manual PDF to cross-check), so the check ran wB97M-V per the section's prescribed fallback; wB97M-V intrinsically carries VV10 (no dispersion DIRECTIVES in the input, per the spec; the functional's own nonlocal term is not a directive). TightSCF added for SCF-convergence parity with the pinned arbitration level.",
+  "e_r_eh": -838.538990885394,
+  "e_ts_eh": -838.747179062258,
+  "f_kcal": -130.6400533701103,
+  "fitness_id": "orca_wb97mv_v2",
+  "key": "2698e9bc9b74d94dff45aacbd9449a5bd8e16427f82defbdc78a0581f9ac14b1",
+  "kind": "cfg",
+  "landscape": "canonical",
+  "lot": "wB97M-V def2-TZVPP TightSCF",
+  "maxcore_mb": 1500,
+  "pal": 1,
+  "provenance": {
+    "constant_kcal_per_eh": 627.5094740631,
+    "engine": {
+      "list_k": 100,
+      "workers": 16
+    },
+    "geometries": {
+      "p": "data/derived/structures/prephenate_TSframe.xyz",
+      "p_sha256": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32",
+      "reactant": "data/derived/structures/chorismate_reactive_TSframe.xyz",
+      "reactant_sha256": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd",
+      "ts": "data/derived/structures/ts_opt.xyz",
+      "ts_sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3"
+    },
+    "landscape": "canonical",
+    "landscape_artifacts_sha256": {
+      "cloud": {
+        "path": "data/derived/candidates_v2.npy",
+        "sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71"
+      },
+      "domain_exclusions.json": "412a60b92bfc51605fd05aa938b07dde6b0b493d80f8ba8039e0845268f01f9c",
+      "e_r.npy": "4f0e5eb5b96d1c35f5b6e5b302918fe672261fc9da2abdd6b1408e4beff2ca80",
+      "e_ts.npy": "9d85af53911a2de18ef5f573ba3b530a724dfb960d6522323b039c1503aa3ca8",
+      "enumeration_summary.json": "328ff7b08db2aaea7d5190499e790d166e2e2642776c0b47160fabce214930ed",
+      "f.npy": "85b5a6c0515b81abdff7527593d8842a46d978831690e6c7b03e95d79eb66282",
+      "pair_indices.npy": "8ef0443923ce7447e20dbab97655ae76aed478445aa33876a71507f50a178910",
+      "sign_index.npy": "2ba72bf31967cd6b7d26950cb47310a8ee3f25a435ce4b6d70a0354ef6aa864e"
+    },
+    "landscape_summary_sha256": "328ff7b08db2aaea7d5190499e790d166e2e2642776c0b47160fabce214930ed",
+    "provider": {
+      "fitness_id": "orca_r2scan3c_v2",
+      "lot": "r2SCAN-3c TightSCF",
+      "maxcore_mb": 1500,
+      "pal": 1,
+      "pc_channel": {
+        "directive": "%pointcharges \"<abs path to .pc file>\"",
+        "file": "first line = charge count, then one 'q x y z' line per charge; q written as the literal +1.0 / -1.0",
+        "units": "angstrom, positions passed through unchanged (pinned empirically v1 2026-09-25; re-verified by the asymptote embedding gate in the test suite)"
+      }
+    },
+    "schema": "arbitration_v1"
+  },
+  "row": 1224215,
+  "schema": "arbitration_v1",
+  "step": "G",
+  "utc": "2026-10-29T15:22:33.669567+00:00",
+  "walls": {
+    "r_s": 373.4862842349994,
+    "ts_s": 780.7667546140001
+  }
+}

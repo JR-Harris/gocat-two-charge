@@ -1,0 +1,143 @@
+{
+  "k_final": 130,
+  "landscape": "replicate-2",
+  "provenance": {
+    "constant_kcal_per_eh": 627.5094740631,
+    "engine": {
+      "list_k": 100,
+      "workers": 16
+    },
+    "geometries": {
+      "p": "data/derived/structures/prephenate_TSframe.xyz",
+      "p_sha256": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32",
+      "reactant": "data/derived/structures/chorismate_reactive_TSframe.xyz",
+      "reactant_sha256": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd",
+      "ts": "data/derived/structures/ts_opt.xyz",
+      "ts_sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3"
+    },
+    "landscape": "replicate-2",
+    "landscape_artifacts_sha256": {
+      "cloud": {
+        "path": "data/replicates/replicate-2/candidates_replicate-2.npy",
+        "sha256": "5811aec7bbd6fd352700ae67962c22673dc4fda7864a87546141f1ec8c71b797"
+      },
+      "domain_exclusions.json": "b39dd5e9002c4c00bbfca55c0411d142b5b446bf47e631aa069f9d6e5826f7bc",
+      "e_r.npy": "751e513e0e88b39ac8e94f60542f7cf413beb92190b9c4b21f379c33072b22e8",
+      "e_ts.npy": "6cf5d7d0311f84b7f5e7d59e8fe1c9ca9b30b71c352146f508a5d6b758a509d3",
+      "enumeration_summary.json": "99e59cf37063b4be23b0a9a6452ad4cc8ad40a3ec74219f4989f7e63d7a2dd2a",
+      "f.npy": "874ecc8594faac8ad3722a827f0e96a96346e34417da86bcabc83ea5809ac688",
+      "pair_indices.npy": "6cad8c2ad5f8549391a54918004f5a7a11b81a5facecdb177637dc4a5451717f",
+      "sign_index.npy": "1dbf63cc177fff9bab9043559c0646cb03e387346e8983ee2c06224e26f26bac"
+    },
+    "landscape_summary_sha256": "99e59cf37063b4be23b0a9a6452ad4cc8ad40a3ec74219f4989f7e63d7a2dd2a",
+    "provider": {
+      "fitness_id": "orca_r2scan3c_v2",
+      "lot": "r2SCAN-3c TightSCF",
+      "maxcore_mb": 1500,
+      "pal": 1,
+      "pc_channel": {
+        "directive": "%pointcharges \"<abs path to .pc file>\"",
+        "file": "first line = charge count, then one 'q x y z' line per charge; q written as the literal +1.0 / -1.0",
+        "units": "angstrom, positions passed through unchanged (pinned empirically v1 2026-09-25; re-verified by the asymptote embedding gate in the test suite)"
+      }
+    },
+    "schema": "arbitration_v1"
+  },
+  "purpose": "step B: the pre-committed boundary sweep",
+  "rounds": [
+    {
+      "beat": true,
+      "certified_best_before_kcal": -146.0197604781838,
+      "new_best_kcal": -148.64631452746724,
+      "new_best_row": 1164763,
+      "range": [
+        100,
+        129
+      ],
+      "rows": [
+        1164751,
+        1167555,
+        1152375,
+        1164747,
+        1175763,
+        1167567,
+        1166835,
+        1167175,
+        1146131,
+        1183163,
+        1173727,
+        1146135,
+        1148907,
+        1177807,
+        1139843,
+        1166895,
+        1151007,
+        1139835,
+        1209683,
+        1179815,
+        1153075,
+        1164767,
+        1152423,
+        1140543,
+        1476647,
+        1164763,
+        1185875,
+        1139895,
+        1144347,
+        1146123
+      ]
+    },
+    {
+      "beat": false,
+      "certified_best_before_kcal": -148.64631452746724,
+      "new_best_kcal": -131.08264940594032,
+      "new_best_row": 1164755,
+      "range": [
+        130,
+        159
+      ],
+      "rows": [
+        1146831,
+        1151023,
+        1153087,
+        1177783,
+        1144739,
+        1146843,
+        1148931,
+        1144715,
+        1165095,
+        1165475,
+        1150639,
+        1142627,
+        1476659,
+        1164755,
+        1183847,
+        1171303,
+        1146183,
+        1165487,
+        1171671,
+        1179827,
+        1173739,
+        1209695,
+        1148539,
+        1167571,
+        1171699,
+        1183835,
+        1164815,
+        1151011,
+        1152695,
+        1148911
+      ]
+    }
+  ],
+  "rule": "evaluate oracle ranks K+1..K+30; if any boundary config's DFT f beats the current DFT-best of the certified set, extend K by +30 and repeat; already-evaluated configs never re-execute",
+  "schema": "arbitration_v1",
+  "step": "B",
+  "widening_events": [
+    {
+      "event": 1,
+      "extended_to_k": 130,
+      "new_best_row": 1164763
+    }
+  ]
+}

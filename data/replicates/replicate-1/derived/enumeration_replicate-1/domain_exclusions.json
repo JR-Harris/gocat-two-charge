@@ -1,0 +1,23 @@
+{
+ "count": 1,
+ "rows": [
+  1444867
+ ],
+ "entries": [
+  {
+   "row": 1444867,
+   "config": [
+    566,
+    610,
+    -1,
+    -1
+   ],
+   "stage": "reactant",
+   "marker": "scc-not-converged",
+   "raw_rel": "provider_scratch/6175a7a11dec92ebd89e37f31511de4dfb911096d818f8581fafef0c0e73fc27/reactant",
+   "raw_abs": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/replicate-1/run/provider_scratch/6175a7a11dec92ebd89e37f31511de4dfb911096d818f8581fafef0c0e73fc27/reactant",
+   "utc": "2026-10-16T00:36:57Z"
+  }
+ ],
+ "note": "the SCC-domain class under the frozen T2 protocol: configurations outside the fitness's domain; the float32 value arrays carry NaN at these rows; the raw evidence dirs are part of the run tree"
+}

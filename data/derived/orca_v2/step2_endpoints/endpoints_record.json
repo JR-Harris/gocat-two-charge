@@ -1,0 +1,59 @@
+{
+  "stage": "endpoints",
+  "jobs": {
+    "chor": {
+      "tag": "chor",
+      "jobs": [
+        {
+          "name": "chor",
+          "energy_eh": -838.271116720443,
+          "opt_converged": true,
+          "n_modes": 78,
+          "n_hard": 0,
+          "n_soft": 0,
+          "hard_modes": [],
+          "soft_values": [],
+          "below_soft_threshold": [],
+          "rank": [
+            0,
+            0,
+            -838.271116720443
+          ]
+        }
+      ],
+      "attempts": 0,
+      "accepted": "chor",
+      "accepted_energy_eh": -838.271116720443,
+      "accepted_n_hard": 0,
+      "accepted_n_soft": 0,
+      "accepted_soft_values": []
+    },
+    "preph": {
+      "tag": "preph",
+      "jobs": [
+        {
+          "name": "preph",
+          "energy_eh": -838.285354279888,
+          "opt_converged": true,
+          "n_modes": 78,
+          "n_hard": 0,
+          "n_soft": 0,
+          "hard_modes": [],
+          "soft_values": [],
+          "below_soft_threshold": [],
+          "rank": [
+            0,
+            0,
+            -838.285354279888
+          ]
+        }
+      ],
+      "attempts": 0,
+      "accepted": "preph",
+      "accepted_energy_eh": -838.285354279888,
+      "accepted_n_hard": 0,
+      "accepted_n_soft": 0,
+      "accepted_soft_values": []
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "method": "unweighted SVD Kabsch on the six pericyclic core atoms; chorismate_reactive_opt.xyz fitted onto ts_opt.xyz (TS defines the frame); proper rotation enforced (det=+1)",
+  "convention": "aligned_x = R @ x + t (row form: X @ R.T + t)",
+  "timestamp": "2026-10-07T20:22:52+00:00",
+  "core_atoms": [
+    {
+      "label": "O1",
+      "index": 0
+    },
+    {
+      "label": "C7",
+      "index": 6
+    },
+    {
+      "label": "C9",
+      "index": 8
+    },
+    {
+      "label": "C11",
+      "index": 10
+    },
+    {
+      "label": "C14",
+      "index": 13
+    },
+    {
+      "label": "C16",
+      "index": 15
+    }
+  ],
+  "atom_index_note": "atom indices are 0-based (chorismate atom order); labels are element + 1-based atom number",
+  "gate_tolerance_A": 0.001,
+  "gate": {
+    "O1-C7 (breaking)": {
+      "atoms": [
+        0,
+        6
+      ],
+      "computed_A": 2.0749740435767134,
+      "summary_A": 2.074973415801272,
+      "delta_A": 6.277754414085734e-07,
+      "pass": true
+    },
+    "C11-C16 (forming)": {
+      "atoms": [
+        10,
+        15
+      ],
+      "computed_A": 2.4888945990646723,
+      "summary_A": 2.4888954692099867,
+      "delta_A": 8.701453144688287e-07,
+      "pass": true
+    },
+    "O1-C14 (->C=O)": {
+      "atoms": [
+        0,
+        13
+      ],
+      "computed_A": 1.2776276107874076,
+      "summary_A": 1.277627126270024,
+      "delta_A": 4.845173835477112e-07,
+      "pass": true
+    },
+    "C14-C16": {
+      "atoms": [
+        13,
+        15
+      ],
+      "computed_A": 1.3829461456310814,
+      "summary_A": 1.382946460148765,
+      "delta_A": 3.1451768367496413e-07,
+      "pass": true
+    },
+    "C7-C9": {
+      "atoms": [
+        6,
+        8
+      ],
+      "computed_A": 1.3828250482660775,
+      "summary_A": 1.3828251552781357,
+      "delta_A": 1.0701205810370595e-07,
+      "pass": true
+    },
+    "C9-C11": {
+      "atoms": [
+        8,
+        10
+      ],
+      "computed_A": 1.389379019277232,
+      "summary_A": 1.3893790967410586,
+      "delta_A": 7.746382668649687e-08,
+      "pass": true
+    }
+  },
+  "rotation_matrix": [
+    [
+      0.9962488432995725,
+      0.0852886427636923,
+      -0.014631802342581383
+    ],
+    [
+      -0.08560619247304914,
+      0.9960714400351192,
+      -0.022655378095101215
+    ],
+    [
+      0.012642073980654651,
+      0.023822967109325396,
+      0.9996362559469196
+    ]
+  ],
+  "translation_vector": [
+    -0.16270401367248583,
+    0.10431239365369405,
+    0.032964840318068234
+  ],
+  "det_rotation": 1.0000000000000009,
+  "proper_rotation": true,
+  "core_rmsd_A": 0.324686125864486,
+  "periphery_rmsd_A": 0.6053284060255453,
+  "per_atom_displacement_A": [
+    {
+      "label": "O1",
+      "index": 0,
+      "displacement_A": 0.234138687694686
+    },
+    {
+      "label": "O2",
+      "index": 1,
+      "displacement_A": 0.28378411718732255
+    },
+    {
+      "label": "O3",
+      "index": 2,
+      "displacement_A": 1.3334858739117035
+    },
+    {
+      "label": "O4",
+      "index": 3,
+      "displacement_A": 0.8223680979655261
+    },
+    {
+      "label": "O5",
+      "index": 4,
+      "displacement_A": 0.2673515533204328
+    },
+    {
+      "label": "O6",
+      "index": 5,
+      "displacement_A": 0.36136368399625113
+    },
+    {
+      "label": "C7",
+      "index": 6,
+      "displacement_A": 0.38828814328491373
+    },
+    {
+      "label": "C8",
+      "index": 7,
+      "displacement_A": 0.08247573897066604
+    },
+    {
+      "label": "C9",
+      "index": 8,
+      "displacement_A": 0.0983957277010076
+    },
+    {
+      "label": "C10",
+      "index": 9,
+      "displacement_A": 0.08916783974106512
+    },
+    {
+      "label": "C11",
+      "index": 10,
+      "displacement_A": 0.5288515022933159
+    },
+    {
+      "label": "C12",
+      "index": 11,
+      "displacement_A": 0.4241435741676928
+    },
+    {
+      "label": "C13",
+      "index": 12,
+      "displacement_A": 0.8971702379236772
+    },
+    {
+      "label": "C14",
+      "index": 13,
+      "displacement_A": 0.026971041647120088
+    },
+    {
+      "label": "C15",
+      "index": 14,
+      "displacement_A": 0.2192189895153881
+    },
+    {
+      "label": "C16",
+      "index": 15,
+      "displacement_A": 0.36992540719320566
+    },
+    {
+      "label": "H17",
+      "index": 16,
+      "displacement_A": 0.1883250079911543
+    },
+    {
+      "label": "H18",
+      "index": 17,
+      "displacement_A": 0.10510583050173304
+    },
+    {
+      "label": "H19",
+      "index": 18,
+      "displacement_A": 0.10660796136459136
+    },
+    {
+      "label": "H20",
+      "index": 19,
+      "displacement_A": 0.04942894366435783
+    },
+    {
+      "label": "H21",
+      "index": 20,
+      "displacement_A": 0.6200085222765621
+    },
+    {
+      "label": "H22",
+      "index": 21,
+      "displacement_A": 0.36650268764914223
+    },
+    {
+      "label": "H23",
+      "index": 22,
+      "displacement_A": 0.22771239144258118
+    },
+    {
+      "label": "H24",
+      "index": 23,
+      "displacement_A": 0.6140489452959678
+    },
+    {
+      "label": "H25",
+      "index": 24,
+      "displacement_A": 1.5502469736733742
+    },
+    {
+      "label": "H26",
+      "index": 25,
+      "displacement_A": 0.364043780959425
+    }
+  ],
+  "sha256": {
+    "inputs": {
+      "data/derived/structures/ts_opt.xyz": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+      "data/derived/structures/chorismate_reactive_opt.xyz": "fcd45ea36e09767248949cdd6ffaddc94f9bd699dcf4f7bc5443f8130d6e3c5d",
+      "data/derived/ts_summary.json": "3fbfe216ded95ad2c1738a8363ae743c8e956ba2584b691f55dcbf9919320c9e"
+    },
+    "outputs": {
+      "data/derived/structures/chorismate_reactive_TSframe.xyz": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd"
+    }
+  }
+}

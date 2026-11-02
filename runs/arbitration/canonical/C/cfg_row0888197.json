@@ -1,0 +1,30 @@
+{
+  "config": {
+    "idx_i": 285,
+    "idx_j": 591,
+    "sign_i": 1.0,
+    "sign_j": -1.0
+  },
+  "e_r_eh": -838.4259510117,
+  "e_ts_eh": -838.412247226099,
+  "executed": true,
+  "f_kcal": 8.599255295171934,
+  "f_xtb_kcal": 23.66249656677246,
+  "fitness_id": "orca_r2scan3c_v2",
+  "from_cache": false,
+  "key": "ffa360cbec19cceb59d8cbc53cbd04e7a4b48bcdda4749dc6213b693415cc63f",
+  "kind": "cfg",
+  "landscape": "canonical",
+  "lot": "r2SCAN-3c TightSCF",
+  "maxcore_mb": 1500,
+  "oracle_rank": 887375,
+  "pal": 1,
+  "row": 888197,
+  "schema": "arbitration_v1",
+  "step": "C",
+  "utc": "2026-10-28T22:50:12.196249+00:00",
+  "walls": {
+    "r_s": 300.77127492500586,
+    "ts_s": 248.72545923699363
+  }
+}

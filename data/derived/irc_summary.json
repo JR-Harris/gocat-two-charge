@@ -1,0 +1,52 @@
+{
+  "terminated": true,
+  "ts_energy_eh": -838.244179,
+  "irc_maxiter": 40,
+  "n_summary_steps": 73,
+  "endpoints": {
+    "forward": {
+      "xyz": "data/derived/orca_v2/step3_irc/irc_IRC_F.xyz",
+      "energy_eh": -838.261902291754,
+      "barrier_from_TS_kcal_mol": 11.121533487225411,
+      "n_fragments": 1,
+      "heavy_fragment_sizes": [
+        16
+      ],
+      "key_distances": {
+        "O1-C7 (breaking)": 1.4975972706353953,
+        "C11-C16 (forming)": 2.928503273123993,
+        "O1-C14 (->C=O)": 1.3717700937065274,
+        "C14-C16": 1.3358986814038272,
+        "C7-C9": 1.4813104038725136,
+        "C9-C11": 1.34759309761447
+      },
+      "classification": "reactant-like (O1-C7 intact, C11-C16 open)",
+      "chorismate_type": "reactive chair (C11-C16 <=3.2 A)"
+    },
+    "backward": {
+      "xyz": "data/derived/orca_v2/step3_irc/irc_IRC_B.xyz",
+      "energy_eh": -838.277766475207,
+      "barrier_from_TS_kcal_mol": 21.076458902260764,
+      "n_fragments": 1,
+      "heavy_fragment_sizes": [
+        16
+      ],
+      "key_distances": {
+        "O1-C7 (breaking)": 2.697450962011562,
+        "C11-C16 (forming)": 1.6236917021175874,
+        "O1-C14 (->C=O)": 1.2103431974973402,
+        "C14-C16": 1.495557619921983,
+        "C7-C9": 1.3309818749477262,
+        "C9-C11": 1.4987645261385856
+      },
+      "classification": "product-like (O1-C7 broken, C11-C16 formed)",
+      "chorismate_type": null
+    }
+  },
+  "reactant_side": "forward",
+  "product_side": "backward",
+  "reactant_is_reactive_chair": true,
+  "full_trajectory": "data/derived/orca_v2/step3_irc/irc_IRC_Full_trj.xyz",
+  "pal": 8,
+  "maxcore_mb": 1500
+}

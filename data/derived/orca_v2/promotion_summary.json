@@ -1,0 +1,163 @@
+{
+  "event": "v2-qm-promotion",
+  "utc": "2026-10-07T19:57:51.611584+00:00",
+  "mirror_root": "data/hpc_out/data/derived/orca_v2",
+  "canonical_tree": "data/derived/orca_v2",
+  "not_promoted": [
+    "chorismate_reactive_TSframe.xyz"
+  ],
+  "gate_stages": [
+    "endpoints",
+    "ts",
+    "irc"
+  ],
+  "precondition_gates": {
+    "endpoints": {
+      "stage": "endpoints",
+      "out_root": "data/hpc_out/data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "20/20 checks PASS ==",
+      "ok": true
+    },
+    "ts": {
+      "stage": "ts",
+      "out_root": "data/hpc_out/data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "32/32 checks PASS ==",
+      "ok": true
+    },
+    "irc": {
+      "stage": "irc",
+      "out_root": "data/hpc_out/data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "35/35 checks PASS ==",
+      "ok": true
+    }
+  },
+  "re_run": "an earlier completed promotion was recorded: the archive step is skipped, the steps that write are idempotent copies/regenerations",
+  "archive": {
+    "dir": "data/derived/archive/2026-10-07_v2-qm-promotion",
+    "manifest": {}
+  },
+  "stage_outputs": {
+    "tree": "orca_v2",
+    "copied_from": "data/hpc_out/data/derived/orca_v2",
+    "copied_files": 144
+  },
+  "structures": {
+    "data/derived/orca_v2/step3_coordinate_drive/optts.xyz": "data/derived/structures/ts_opt.xyz",
+    "data/derived/orca_v2/step2_endpoints/chor.xyz": "data/derived/structures/chorismate_nonreactive_opt.xyz",
+    "data/derived/orca_v2/step2_endpoints/preph.xyz": "data/derived/structures/prephenate_opt.xyz",
+    "data/derived/orca_v2/step3_irc_endpoints_opt/chorismate_reactive/chorismate_reactive.xyz": "data/derived/structures/chorismate_reactive_opt.xyz",
+    "data/derived/orca_v2/step3_irc_endpoints_opt/prephenate/prephenate.xyz": "data/derived/structures/prephenate_opt_chororder.xyz"
+  },
+  "summaries": {
+    "orca_summary": "data/derived/orca_summary.json",
+    "ts_summary": "data/derived/ts_summary.json",
+    "irc_summary": "data/derived/irc_summary.json",
+    "irc_endpoints_summary": "data/derived/irc_endpoints_summary.json"
+  },
+  "schema_check": "key-lists identical to the archived v1 files; energies present",
+  "post_gates": {
+    "endpoints": {
+      "stage": "endpoints",
+      "out_root": "data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "20/20 checks PASS ==",
+      "ok": true
+    },
+    "ts": {
+      "stage": "ts",
+      "out_root": "data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "32/32 checks PASS ==",
+      "ok": true
+    },
+    "irc": {
+      "stage": "irc",
+      "out_root": "data/derived/orca_v2",
+      "exit_code": 0,
+      "checks": "35/35 checks PASS ==",
+      "ok": true
+    }
+  },
+  "written_sha256": {
+    "structures/ts_opt.xyz": {
+      "sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+      "source": "data/derived/orca_v2/step3_coordinate_drive/optts.xyz"
+    },
+    "structures/chorismate_nonreactive_opt.xyz": {
+      "sha256": "e9a0f00c0d16813699a489bb1ab52582c0ac4ef12c173425cb1d7a49730ae26d",
+      "source": "data/derived/orca_v2/step2_endpoints/chor.xyz"
+    },
+    "structures/prephenate_opt.xyz": {
+      "sha256": "99ee612f12e54865c6d049eb97a9e229d4851fdb520c49efa4c8c6c05da425f5",
+      "source": "data/derived/orca_v2/step2_endpoints/preph.xyz"
+    },
+    "structures/chorismate_reactive_opt.xyz": {
+      "sha256": "fcd45ea36e09767248949cdd6ffaddc94f9bd699dcf4f7bc5443f8130d6e3c5d",
+      "source": "data/derived/orca_v2/step3_irc_endpoints_opt/chorismate_reactive/chorismate_reactive.xyz"
+    },
+    "structures/prephenate_opt_chororder.xyz": {
+      "sha256": "bf1814ee93c4c641a405733872da4dca64ee32ce542efe3df9325817e18ff0a9",
+      "source": "data/derived/orca_v2/step3_irc_endpoints_opt/prephenate/prephenate.xyz"
+    },
+    "orca_summary.json": {
+      "sha256": "f9b44669b161a4f02af7e372526c7b451da20d09e3d1d5fd80749b7de4f596d9",
+      "source": "orca_v2 (regenerated)"
+    },
+    "ts_summary.json": {
+      "sha256": "3fbfe216ded95ad2c1738a8363ae743c8e956ba2584b691f55dcbf9919320c9e",
+      "source": "orca_v2 (regenerated)"
+    },
+    "irc_summary.json": {
+      "sha256": "580c35473635d1f55cf11db23e9fc4e65b51df3db5c0ce3c0ad2e93e9a2fae26",
+      "source": "orca_v2 (regenerated)"
+    },
+    "irc_endpoints_summary.json": {
+      "sha256": "e12dfbda3479d39b532f737e4e0209af4cf00f470f64aed681d0c7d8f7ff055a",
+      "source": "orca_v2 (regenerated)"
+    },
+    "archive/2026-10-07_v2-qm-promotion/ts_opt.xyz": {
+      "sha256": "68893bc1cc7eb81a31bf95b05caf3173873bb421ab85b62167b8f8ca7e8e6f73",
+      "source": "archived v1 ts_opt.xyz"
+    },
+    "archive/2026-10-07_v2-qm-promotion/chorismate_nonreactive_opt.xyz": {
+      "sha256": "8394dec4a97fac8a07541b6b71bd5260fd4fd6c4f0859ad0b4c406b5c195fdc6",
+      "source": "archived v1 chorismate_nonreactive_opt.xyz"
+    },
+    "archive/2026-10-07_v2-qm-promotion/prephenate_opt.xyz": {
+      "sha256": "c310476c7ae1cc8876a8cd8589d3d4a8f5552dadb3ad2634334e7f2a213a7e49",
+      "source": "archived v1 prephenate_opt.xyz"
+    },
+    "archive/2026-10-07_v2-qm-promotion/chorismate_reactive_opt.xyz": {
+      "sha256": "72b44cca47cca244f47f6dabc485708bffc50d61fbf5e001bc02f589ecc6540a",
+      "source": "archived v1 chorismate_reactive_opt.xyz"
+    },
+    "archive/2026-10-07_v2-qm-promotion/prephenate_opt_chororder.xyz": {
+      "sha256": "90c865a6f346f484731527a9b83b7a3f1c9d4904499e0532c08a74a135962322",
+      "source": "archived v1 prephenate_opt_chororder.xyz"
+    },
+    "archive/2026-10-07_v2-qm-promotion/orca_summary.json": {
+      "sha256": "c8331d2cba54d7fe5f0d169ed709a03c3e73b6c2d4468dfd428108052940f932",
+      "source": "archived v1 orca_summary"
+    },
+    "archive/2026-10-07_v2-qm-promotion/ts_summary.json": {
+      "sha256": "9f492a7953bf2306cd8ed0bc321b1dfab195b6504bd922a5ea1af89e8708c624",
+      "source": "archived v1 ts_summary"
+    },
+    "archive/2026-10-07_v2-qm-promotion/irc_summary.json": {
+      "sha256": "bc522963c4037ad436f5affdae6a10051e65bed40ff23f2a4b8a44bb26cb2981",
+      "source": "archived v1 irc_summary"
+    },
+    "archive/2026-10-07_v2-qm-promotion/irc_endpoints_summary.json": {
+      "sha256": "e1624449b4af374e762d74d13b329b4ca422e5168cbee43ed8891f1f3696706c",
+      "source": "archived v1 irc_endpoints_summary"
+    },
+    "orca_v2/README.md": {
+      "sha256": "dfb007bb2996d18a2b817f2ad96aca75a6a0635c4f6df0ad163403d95da2e3f7",
+      "source": "orca_v2/README.md"
+    }
+  },
+  "manifest_note": "per-file sha256 of every written/archived file; this file itself is excluded (self-reference)"
+}

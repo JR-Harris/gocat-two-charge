@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Working outputs. The arbitration records under runs/arbitration/ ARE
+# published (they are the reference-level results); everything else under
+# runs/ is regenerable working state.
+runs/*
+!runs/arbitration/
+!runs/arbitration/**
+
+# ORCA restart/scratch byproducts
+*.gbw
+*.densities
+*.property.txt
+scratch/
+
+# OS noise
+.DS_Store
+
+# Review documents kept in the working folder but not published
+INDEPENDENT_REPO_EVALUATION.md
+INDEPENDENT_REPO_EVALUATION_RESPONSE.md
+
+# The manuscript draft (kept beside the repository, not part of it)
+PROJECT_REPORT.docx

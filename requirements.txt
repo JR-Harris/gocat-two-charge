@@ -1,0 +1,25 @@
+# gocat-two-charge — Python dependencies
+#
+# Python 3.13 (the reported results were produced with 3.13.14).
+#
+#   python -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Two programs are external binaries, not pip packages, and are needed only
+# by the stages named in the README's map:
+#
+#   ORCA 6.1.1    quantum chemistry: structures, frequencies, IRC, and the
+#                 reference-level (r2SCAN-3c) tier. Licensed software.
+#   xtb 6.7.1     the GFN2-xTB search tier; the embedding channel is its
+#                 command line (bin/xtb-6.7.1/bin/xtb).
+#
+# tblite is deliberately absent. It installs, but its library exposes no
+# external point-charge API, so it cannot carry the embedded-charge fitness;
+# `xtb --tblite` silently ignores $embedding. The CLI is the only correct
+# channel for this study (fitness/xtb.py records the finding).
+
+numpy==2.5.1
+scipy==1.18.0
+trimesh==5.0.0
+point-cloud-utils==0.34.0
+manifold3d==3.5.2

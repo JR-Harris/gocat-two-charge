@@ -1,0 +1,269 @@
+{
+ "schema": "battery_summary_v1",
+ "landscape": "replicate-2",
+ "arm": "armB",
+ "addendum_sha256": "28eb464a3e7813f2c31c551af4688c42710e3a6ea50273b46efa1274748db102",
+ "G_battery": 2500,
+ "n_attempted": 100,
+ "n_recorded_ok": 100,
+ "n_failed": 0,
+ "failure_mode_note": "failed records carry status: failed + the cause; excluded from the NUMERATOR only; n = attempted is EVERY statistic's denominator (prereg m5)",
+ "argmin_target": -125.52238044298429,
+ "argmin_row": 1141875,
+ "headline_cell": {
+  "G": 2500,
+  "eps": 1.0
+ },
+ "headline_success_fraction": {
+  "eps": 0.25
+ },
+ "stats": {
+  "0.25": {
+   "eps": 0.25,
+   "n_success": 100,
+   "success_fraction_at_cap": 1.0,
+   "wilson95": [
+    0.9630065012310038,
+    1.0000000000000002
+   ],
+   "success_vs_G": "per-generation curve lives in the seed ledger (success[] = T_g per seed); the curve is built from it at report time",
+   "generations_to_success": {
+    "mean": 207.0,
+    "median": 86.0,
+    "p95": 801.6999999999999,
+    "quantile_honesty": "the p99 level at n = 100 rests on ~1 success; reported with Wilson uncertainty, never smoothed"
+   },
+   "success_vs_queries": {
+    "100": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "300": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "1000": {
+     "successes_at_budget": 1,
+     "success_fraction": 0.01,
+     "wilson95": [
+      0.0017674320446096417,
+      0.0544861967490067
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "3000": {
+     "successes_at_budget": 34,
+     "success_fraction": 0.34,
+     "wilson95": [
+      0.25461520736693877,
+      0.4372227122391401
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "10000": {
+     "successes_at_budget": 73,
+     "success_fraction": 0.73,
+     "wilson95": [
+      0.6356788315330401,
+      0.8073041590332216
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "100000": {
+     "successes_at_budget": 100,
+     "success_fraction": 1.0,
+     "wilson95": [
+      0.9630065012310038,
+      1.0000000000000002
+     ],
+     "budget_not_reached_runs": 0
+    }
+   },
+   "ert_queries": {
+    "100": ">= 100",
+    "300": ">= 300",
+    "1000": 99962.0,
+    "3000": 7749.764705882353,
+    "10000": 7405.835616438356,
+    "100000": 9986.0
+   },
+   "ert_generation_analogue": 207.0,
+   "exact_identity_fraction": 1.0
+  },
+  "0.5": {
+   "eps": 0.5,
+   "n_success": 100,
+   "success_fraction_at_cap": 1.0,
+   "wilson95": [
+    0.9630065012310038,
+    1.0000000000000002
+   ],
+   "success_vs_G": "per-generation curve lives in the seed ledger (success[] = T_g per seed); the curve is built from it at report time",
+   "generations_to_success": {
+    "mean": 207.0,
+    "median": 86.0,
+    "p95": 801.6999999999999,
+    "quantile_honesty": "the p99 level at n = 100 rests on ~1 success; reported with Wilson uncertainty, never smoothed"
+   },
+   "success_vs_queries": {
+    "100": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "300": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "1000": {
+     "successes_at_budget": 1,
+     "success_fraction": 0.01,
+     "wilson95": [
+      0.0017674320446096417,
+      0.0544861967490067
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "3000": {
+     "successes_at_budget": 34,
+     "success_fraction": 0.34,
+     "wilson95": [
+      0.25461520736693877,
+      0.4372227122391401
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "10000": {
+     "successes_at_budget": 73,
+     "success_fraction": 0.73,
+     "wilson95": [
+      0.6356788315330401,
+      0.8073041590332216
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "100000": {
+     "successes_at_budget": 100,
+     "success_fraction": 1.0,
+     "wilson95": [
+      0.9630065012310038,
+      1.0000000000000002
+     ],
+     "budget_not_reached_runs": 0
+    }
+   },
+   "ert_queries": {
+    "100": ">= 100",
+    "300": ">= 300",
+    "1000": 99962.0,
+    "3000": 7749.764705882353,
+    "10000": 7405.835616438356,
+    "100000": 9986.0
+   },
+   "ert_generation_analogue": 207.0,
+   "exact_identity_fraction": 1.0
+  },
+  "1.0": {
+   "eps": 1.0,
+   "n_success": 100,
+   "success_fraction_at_cap": 1.0,
+   "wilson95": [
+    0.9630065012310038,
+    1.0000000000000002
+   ],
+   "success_vs_G": "per-generation curve lives in the seed ledger (success[] = T_g per seed); the curve is built from it at report time",
+   "generations_to_success": {
+    "mean": 137.35,
+    "median": 49.0,
+    "p95": 678.6999999999999,
+    "quantile_honesty": "the p99 level at n = 100 rests on ~1 success; reported with Wilson uncertainty, never smoothed"
+   },
+   "success_vs_queries": {
+    "100": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "300": {
+     "successes_at_budget": 0,
+     "success_fraction": 0.0,
+     "wilson95": [
+      0.0,
+      0.03699349876899627
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "1000": {
+     "successes_at_budget": 6,
+     "success_fraction": 0.06,
+     "wilson95": [
+      0.027786123800628143,
+      0.12476815511608857
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "3000": {
+     "successes_at_budget": 66,
+     "success_fraction": 0.66,
+     "wilson95": [
+      0.56277728776086,
+      0.7453847926330613
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "10000": {
+     "successes_at_budget": 85,
+     "success_fraction": 0.85,
+     "wilson95": [
+      0.7671644033458782,
+      0.9069401475158245
+     ],
+     "budget_not_reached_runs": 0
+    },
+    "100000": {
+     "successes_at_budget": 100,
+     "success_fraction": 1.0,
+     "wilson95": [
+      0.9630065012310038,
+      1.0000000000000002
+     ],
+     "budget_not_reached_runs": 0
+    }
+   },
+   "ert_queries": {
+    "100": ">= 100",
+    "300": ">= 300",
+    "1000": 16500.666666666668,
+    "3000": 3397.6363636363635,
+    "10000": 4189.858823529412,
+    "100000": 6642.8
+   },
+   "ert_generation_analogue": 137.35,
+   "exact_identity_fraction": 1.0
+  }
+ },
+ "status_of_this_summary": "COMPLETE"
+}

@@ -1,0 +1,599 @@
+{
+ "fitness_id": "enumeration_v2",
+ "universe": {
+  "n": 928,
+  "n_pairs_total": 430128,
+  "n_configs_total": 1720512,
+  "d_min": 1.0,
+  "n_pairs_excluded": 5345,
+  "n_configs_excluded": 21380,
+  "n_rows_post_floor": 1699132,
+  "sign_canon": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "row_order": "pair-major post-floor: row = 4*p + s; p = the np.triu_indices pair rank after the d_min floor (row-major), s = the sign index"
+ },
+ "n_evals_distinct": 1699131,
+ "n_evals_provider_ledger": 1699131,
+ "ledger": [
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_0",
+   "rows": 106196,
+   "first": 0,
+   "last": 106195,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_0",
+    "range": [
+     0,
+     106196
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41155.308,
+    "wall_total_s": 45612.844,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_1",
+   "rows": 106196,
+   "first": 106196,
+   "last": 212391,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_1",
+    "range": [
+     106196,
+     212392
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41171.033,
+    "wall_total_s": 45626.347,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_10",
+   "rows": 106196,
+   "first": 1061960,
+   "last": 1168155,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_10",
+    "range": [
+     1061960,
+     1168156
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41190.641,
+    "wall_total_s": 45714.988,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_11",
+   "rows": 106196,
+   "first": 1168156,
+   "last": 1274351,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_11",
+    "range": [
+     1168156,
+     1274352
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41274.158,
+    "wall_total_s": 45766.352,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_12",
+   "rows": 106196,
+   "first": 1274352,
+   "last": 1380547,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_12",
+    "range": [
+     1274352,
+     1380548
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41324.342,
+    "wall_total_s": 45842.394,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_13",
+   "rows": 106196,
+   "first": 1380548,
+   "last": 1486743,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_13",
+    "range": [
+     1380548,
+     1486744
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41563.261,
+    "wall_total_s": 46020.286,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_14",
+   "rows": 106196,
+   "first": 1486744,
+   "last": 1592939,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_14",
+    "range": [
+     1486744,
+     1592940
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41069.798,
+    "wall_total_s": 45529.97,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_15",
+   "rows": 106192,
+   "first": 1592940,
+   "last": 1699131,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_15",
+    "range": [
+     1592940,
+     1699132
+    ],
+    "rows_done_manifest": 106192,
+    "rows_this_session": 106192,
+    "provider_n_evals": 106192,
+    "wall_eval_s": 41326.593,
+    "wall_total_s": 45818.911,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_2",
+   "rows": 106196,
+   "first": 212392,
+   "last": 318587,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_2",
+    "range": [
+     212392,
+     318588
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41246.302,
+    "wall_total_s": 45746.991,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_3",
+   "rows": 106196,
+   "first": 318588,
+   "last": 424783,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_3",
+    "range": [
+     318588,
+     424784
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41286.932,
+    "wall_total_s": 45869.204,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_4",
+   "rows": 106195,
+   "first": 424784,
+   "last": 530979,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_4",
+    "range": [
+     424784,
+     530980
+    ],
+    "rows_done_manifest": 106195,
+    "rows_this_session": 106195,
+    "provider_n_evals": 106195,
+    "wall_eval_s": 42795.848,
+    "wall_total_s": 47388.273,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_5",
+   "rows": 106196,
+   "first": 530980,
+   "last": 637175,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_5",
+    "range": [
+     530980,
+     637176
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41626.498,
+    "wall_total_s": 46082.681,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_6",
+   "rows": 106196,
+   "first": 637176,
+   "last": 743371,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_6",
+    "range": [
+     637176,
+     743372
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41580.363,
+    "wall_total_s": 46155.381,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_7",
+   "rows": 106196,
+   "first": 743372,
+   "last": 849567,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_7",
+    "range": [
+     743372,
+     849568
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41760.74,
+    "wall_total_s": 46366.717,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_8",
+   "rows": 106196,
+   "first": 849568,
+   "last": 955763,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_8",
+    "range": [
+     849568,
+     955764
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41442.664,
+    "wall_total_s": 45953.521,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  },
+  {
+   "shard_dir": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_9",
+   "rows": 106196,
+   "first": 955764,
+   "last": 1061959,
+   "meta": {
+    "shard_dir": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/shard_9",
+    "range": [
+     955764,
+     1061960
+    ],
+    "rows_done_manifest": 106196,
+    "rows_this_session": 106196,
+    "provider_n_evals": 106196,
+    "wall_eval_s": 41432.199,
+    "wall_total_s": 45916.906,
+    "ok": true,
+    "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+    "mode": "xtb",
+    "cloud": "data/derived/candidates_v2.npy",
+    "provider_fitness_id": "xtb"
+   }
+  }
+ ],
+ "provider_meta": {
+  "provider": "xtb",
+  "fitness_id": "xtb",
+  "description": "GFN2-xTB embedding oracle: f = E(TS;q) - E(R;q) in kcal/mol, two frozen single points with two +-1 e external point charges at the candidate sites",
+  "units": "kcal/mol",
+  "kcal_per_eh": 627.5094740631,
+  "method": "GFN2-xTB single point (SCC accuracy 1.0, SCF conv 1e-5 Eh, electronic temperature 300 K -- program defaults) + the FROZEN global SCC protocol T2 ($scc maxiterations=2000 broydamp=0.1 -- see scc_protocol; adopted 2026-10-08)",
+  "mode": "cli",
+  "modes_available": [
+   "cli"
+  ],
+  "modes_unavailable": {
+   "tblite": "tblite 0.7.0 (cp313 manylinux wheel) installs and imports but exposes NO external point-charge API anywhere in the tblite library; xtb --tblite silently ignores the $embedding block (evaluates the free energy, measured 2026-10-08). PyPI `xtb` bindings have no cp313 wheel; the 6.7.1 release ships no capi build. In-process embedding needs an explicitly granted third channel (pending decision)."
+  },
+  "pcem_units": "angstrom",
+  "pcem_units_gate": [
+   "verified empirically 2026-10-08: interface=orca reads the file in Angstroem (obs matches the closed-form dipole asymptote q*mu/r^2 to -14%/+2%, residuals decaying ~1/R^3; a bohr misread is off by 3.5714x). The legacy interface reads Bohr and agrees bitwise on the same physical placements; the anti-parallel sign flip is verified. Source: src/embedding.f90 v6.7.1 conv = aatoau for orca, 1.0 (bohr) for legacy"
+  ],
+  "pcem_interface": "orca",
+  "pcem_hardness": 99,
+  "pcem_hardness_gate": [
+   "bare-charge limit verified materially 2026-10-08: gam 99 vs 1e6 differ by 1.5e-3 kcal/mol; the defaulted dummy-atom gam = eta(N) differs by 12.25 kcal/mol on the canonical O1 pair"
+  ],
+  "pcem_writer": [
+   "count line + one 'q x y z 99' line per charge; positions in Angstroem written through byte-identical (repr of float64, zero conversion; plain-float cast first -- np.float64 reprs mis-parse in the fortran reader)"
+  ],
+  "pc_pc_term": [
+   "none: E(q1,q2) - E(q1) - E(q2) + E_free = 0.0118 kcal/mol at far separations; the embedded energy is the QC-PC interaction only (verified empirically)"
+  ],
+  "xtb": {
+   "version": "6.7.1",
+   "binary": "bin/xtb-6.7.1/bin/xtb",
+   "tarball": "bin/xtb-6.7.1-linux-x86_64.tar.xz",
+   "source": "grimme-lab/xtb release v6.7.1 (the briefing's xtb-xyz/xtb org name has moved), https://github.com/grimme-lab/xtb/releases/download/v6.7.1/xtb-6.7.1-linux-x86_64.tar.xz",
+   "tarball_sha256": "62a8d18778286e815292ee53d76ce447daf460a4dea3782c0f25cbac7019b5df"
+  },
+  "invocation": "xtb geom.xyz --sp --gfn 2 --norestart -I control; $embedding interface=orca input=pcem.in + the frozen global SCC protocol ($scc maxiterations=2000 broydamp=0.1); OMP/MKL/OPENBLAS_NUM_THREADS=1",
+  "scc_protocol": {
+   "maxiterations": 2000,
+   "broydamp": 0.1,
+   "adopted": "2026-10-08",
+   "source": "the scc-domain diagnostic (research_docs/scc_domain.md + runs/scc_domain/); T2 = rescue-by-damping; T3-equivalence 6e-6 kcal/mol recorded but not adopted",
+   "alternatives_rejected_or_not_adopted": "T1 (maxiter alone): rejected - 2000 still-oscillating iterations, 12min55s wasted, no rescue; T3 (broydamp 0.05): equivalent to 6e-6 kcal/mol, not adopted; the default protocol: fails the extreme-dipole reactant side (exit 128 at the 250-iteration ceiling)",
+   "continuity_vs_default": "<= 2.1e-5 kcal/mol per side, 0/30 bitwise (the same fixed point; the path noise); the reference layer re-pinned 2026-10-08",
+   "measured_pace": "0.067 s/single point (ratio 1.078 vs the default's 0.062 s; the diagnostic's timed sample); the canonical projection 3.9 h at 8 workers"
+  },
+  "domain_rule": {
+   "scc_exclusion": "a nonzero exit carrying the SCC non-convergence signature ('Self consistent charge iterator did not converge' / the ceiling marker) under the frozen T2 protocol = the configuration is OUTSIDE the fitness's domain: excluded, recorded (config, side, marker, raw evidence), never penalised, never retried, the run continues; the stage completes only when every row is evaluated OR domain-excluded",
+   "everything_else_fail_hard": "missing marker, parse error, plausibility breach, missing PC flag, non-finite: plumbing = full stop",
+   "plausibility_ceiling_evidence": "re-derived 2026-10-08 on the 5 closest kept pairs x 4 signs under T2: max |shift| 0.2778 Eh = 174.3 kcal/mol at (150, 151, -1, -1); headroom 1.80x; the 0.5 Eh ceiling stays"
+  },
+  "plausibility": {
+   "max_shift_eh": 0.5,
+   "free_ts_eh": -50.809501549324,
+   "free_r_eh": -50.850132760091
+  },
+  "geometries": {
+   "ts": "data/derived/structures/ts_opt.xyz",
+   "ts_sha256": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+   "reactant": "data/derived/structures/chorismate_reactive_TSframe.xyz",
+   "reactant_sha256": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd"
+  },
+  "cloud": {
+   "path": "data/derived/candidates_v2.npy",
+   "sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+   "gate": "bitwise identity with the locked cloud at every call"
+  },
+  "scratch": "runs/xtb_ff/<config_key>/{ts,reactant}/ (wiped per run)",
+  "accounting": "contract-inherited: every successful row counts in n_evals (2 single points per row); failed calls count nothing"
+ },
+ "cloud_sha256": "084e48a6b5267900a995ba2d4f0412f77f5bb13446ba74eafaf474c644349e71",
+ "geometries_sha256": {
+  "ts": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+  "reactant": "6eb2a27fcbafb963394e2f17f0603713eeda190e96fa53b6b19cf273c23929dd"
+ },
+ "storage": {
+  "f": "float32",
+  "e_ts": "float32",
+  "e_r": "float32",
+  "pairs": "int32 (n_rows, 2)",
+  "sign_index": "int8",
+  "note": "stored as the promoted artifact; the records carry the float64 provider-boundary values"
+ },
+ "fitness": {
+  "units": "kcal/mol",
+  "direction": "lower = better",
+  "global_min": {
+   "f": -125.21463064719501,
+   "row": 1190559,
+   "idx_i": 418,
+   "idx_j": 419,
+   "sign": [
+    3
+   ]
+  },
+  "f_min": -125.21463064719501,
+  "f_max": 170.53084238576048,
+  "finite_rows": 1699131
+ },
+ "artifacts": {
+  "domain_exclusions": {
+   "file": "domain_exclusions.json",
+   "count": 1,
+   "sha256": "412a60b92bfc51605fd05aa938b07dde6b0b493d80f8ba8039e0845268f01f9c"
+  },
+  "nan_reconciliation": "verified: NaN only at the domain-excluded rows, no NaN elsewhere (the belt asserts it at write time)",
+  "f": {
+   "file": "f.npy",
+   "shape": [
+    1699132
+   ],
+   "dtype": "float32",
+   "sha256": "85b5a6c0515b81abdff7527593d8842a46d978831690e6c7b03e95d79eb66282"
+  },
+  "e_ts": {
+   "file": "e_ts.npy",
+   "shape": [
+    1699132
+   ],
+   "dtype": "float32",
+   "sha256": "9d85af53911a2de18ef5f573ba3b530a724dfb960d6522323b039c1503aa3ca8"
+  },
+  "e_r": {
+   "file": "e_r.npy",
+   "shape": [
+    1699132
+   ],
+   "dtype": "float32",
+   "sha256": "4f0e5eb5b96d1c35f5b6e5b302918fe672261fc9da2abdd6b1408e4beff2ca80"
+  },
+  "pair_indices": {
+   "file": "pair_indices.npy",
+   "shape": [
+    1699132,
+    2
+   ],
+   "dtype": "int32",
+   "sha256": "8ef0443923ce7447e20dbab97655ae76aed478445aa33876a71507f50a178910"
+  },
+  "sign_index": {
+   "file": "sign_index.npy",
+   "shape": [
+    1699132
+   ],
+   "dtype": "int8",
+   "sha256": "2ba72bf31967cd6b7d26950cb47310a8ee3f25a435ce4b6d70a0354ef6aa864e"
+  }
+ },
+ "domain_rule": {
+  "count": 1,
+  "n_domain_exclusions": 1,
+  "by_side": {
+   "reactant": 1
+  },
+  "rows": [
+   522045
+  ],
+  "list_file": "domain_exclusions.json",
+  "entries": [
+   {
+    "row": 522045,
+    "config": [
+     154,
+     833,
+     1,
+     -1
+    ],
+    "stage": "reactant",
+    "marker": "scc-not-converged",
+    "raw_rel": "provider_scratch/2eb8316fc3c910e0fb986cabb88e599959f83cea60eae170e5a03e6fe1b72e86/reactant",
+    "raw_abs": "/home/26945355/thesis/GOCAT_Program/data/hpc_out/enumerate/run/provider_scratch/2eb8316fc3c910e0fb986cabb88e599959f83cea60eae170e5a03e6fe1b72e86/reactant",
+    "utc": "2026-10-09T10:00:24Z"
+   }
+  ],
+  "note": "the SCC-domain class (non-convergence under the frozen T2 protocol): excluded, recorded, never penalised; the float32 arrays carry NaN at these row positions (no value exists); the coverage identity holds: n_rows_evaluated + n_rows_excluded == n_rows_landscape"
+ },
+ "promoted_utc": "2026-10-12T08:38:41.200112+00:00",
+ "returned_work_root": "/home/jonnyh/MyThesis/GOCAT_Program/data/hpc_out/enumerate/run",
+ "stage_report_status_as_returned": "incomplete",
+ "coverage": {
+  "n_rows_evaluated": 1699131,
+  "n_rows_excluded": 1,
+  "n_rows_landscape": 1699132,
+  "coverage_identity": true,
+  "domain_exclusions": {
+   "count": 1,
+   "by_side": {
+    "reactant": 1
+   },
+   "rows": [
+    522045
+   ],
+   "list_file": "domain_exclusions.json"
+  },
+  "status": "complete"
+ }
+}

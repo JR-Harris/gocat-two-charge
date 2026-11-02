@@ -1,0 +1,302 @@
+{
+  "method": "unweighted SVD Kabsch on the six pericyclic core atoms; prephenate_opt_chororder.xyz fitted onto ts_opt.xyz (TS defines the frame); proper rotation enforced (det=+1)",
+  "convention": "aligned_x = R @ x + t (row form: X @ R.T + t)",
+  "timestamp": "2026-10-07T20:22:52+00:00",
+  "core_atoms": [
+    {
+      "label": "O1",
+      "index": 0
+    },
+    {
+      "label": "C7",
+      "index": 6
+    },
+    {
+      "label": "C9",
+      "index": 8
+    },
+    {
+      "label": "C11",
+      "index": 10
+    },
+    {
+      "label": "C14",
+      "index": 13
+    },
+    {
+      "label": "C16",
+      "index": 15
+    }
+  ],
+  "atom_index_note": "atom indices are 0-based (chorismate atom order); labels are element + 1-based atom number",
+  "gate_tolerance_A": 0.001,
+  "gate": {
+    "O1-C7 (breaking)": {
+      "atoms": [
+        0,
+        6
+      ],
+      "computed_A": 2.0749740435767134,
+      "summary_A": 2.074973415801272,
+      "delta_A": 6.277754414085734e-07,
+      "pass": true
+    },
+    "C11-C16 (forming)": {
+      "atoms": [
+        10,
+        15
+      ],
+      "computed_A": 2.4888945990646723,
+      "summary_A": 2.4888954692099867,
+      "delta_A": 8.701453144688287e-07,
+      "pass": true
+    },
+    "O1-C14 (->C=O)": {
+      "atoms": [
+        0,
+        13
+      ],
+      "computed_A": 1.2776276107874076,
+      "summary_A": 1.277627126270024,
+      "delta_A": 4.845173835477112e-07,
+      "pass": true
+    },
+    "C14-C16": {
+      "atoms": [
+        13,
+        15
+      ],
+      "computed_A": 1.3829461456310814,
+      "summary_A": 1.382946460148765,
+      "delta_A": 3.1451768367496413e-07,
+      "pass": true
+    },
+    "C7-C9": {
+      "atoms": [
+        6,
+        8
+      ],
+      "computed_A": 1.3828250482660775,
+      "summary_A": 1.3828251552781357,
+      "delta_A": 1.0701205810370595e-07,
+      "pass": true
+    },
+    "C9-C11": {
+      "atoms": [
+        8,
+        10
+      ],
+      "computed_A": 1.389379019277232,
+      "summary_A": 1.3893790967410586,
+      "delta_A": 7.746382668649687e-08,
+      "pass": true
+    }
+  },
+  "rotation_matrix": [
+    [
+      0.9997731303270151,
+      -0.016109581042564127,
+      0.013934463561738837
+    ],
+    [
+      0.015340913943046949,
+      0.9984438984440605,
+      0.05361378571989041
+    ],
+    [
+      -0.014776475747362537,
+      -0.05338785497151352,
+      0.9984645174997595
+    ]
+  ],
+  "translation_vector": [
+    -0.21232593387492033,
+    0.026718238768078717,
+    0.022313616065360198
+  ],
+  "det_rotation": 0.999999999999999,
+  "proper_rotation": true,
+  "core_rmsd_A": 0.4856534829739899,
+  "periphery_rmsd_A": 0.6727515654591,
+  "per_atom_displacement_A": [
+    {
+      "label": "O1",
+      "index": 0,
+      "displacement_A": 0.6679271022029257
+    },
+    {
+      "label": "O2",
+      "index": 1,
+      "displacement_A": 0.8206793961462143
+    },
+    {
+      "label": "O3",
+      "index": 2,
+      "displacement_A": 1.2928748066853533
+    },
+    {
+      "label": "O4",
+      "index": 3,
+      "displacement_A": 0.42348969732179204
+    },
+    {
+      "label": "O5",
+      "index": 4,
+      "displacement_A": 0.2977895758658182
+    },
+    {
+      "label": "O6",
+      "index": 5,
+      "displacement_A": 0.1928026501861257
+    },
+    {
+      "label": "C7",
+      "index": 6,
+      "displacement_A": 0.7225202696878168
+    },
+    {
+      "label": "C8",
+      "index": 7,
+      "displacement_A": 0.6095893919283867
+    },
+    {
+      "label": "C9",
+      "index": 8,
+      "displacement_A": 0.09001053789374805
+    },
+    {
+      "label": "C10",
+      "index": 9,
+      "displacement_A": 0.2754594573811481
+    },
+    {
+      "label": "C11",
+      "index": 10,
+      "displacement_A": 0.4392789417929577
+    },
+    {
+      "label": "C12",
+      "index": 11,
+      "displacement_A": 0.1970460939869076
+    },
+    {
+      "label": "C13",
+      "index": 12,
+      "displacement_A": 0.16494904631130408
+    },
+    {
+      "label": "C14",
+      "index": 13,
+      "displacement_A": 0.10399309760748505
+    },
+    {
+      "label": "C15",
+      "index": 14,
+      "displacement_A": 0.14972766955534028
+    },
+    {
+      "label": "C16",
+      "index": 15,
+      "displacement_A": 0.4848826963266366
+    },
+    {
+      "label": "H17",
+      "index": 16,
+      "displacement_A": 1.09002417306977
+    },
+    {
+      "label": "H18",
+      "index": 17,
+      "displacement_A": 0.6887499278206705
+    },
+    {
+      "label": "H19",
+      "index": 18,
+      "displacement_A": 0.2008496987242452
+    },
+    {
+      "label": "H20",
+      "index": 19,
+      "displacement_A": 0.39236247780149897
+    },
+    {
+      "label": "H21",
+      "index": 20,
+      "displacement_A": 0.4191179510830338
+    },
+    {
+      "label": "H22",
+      "index": 21,
+      "displacement_A": 1.0352189525215387
+    },
+    {
+      "label": "H23",
+      "index": 22,
+      "displacement_A": 0.09116026990247283
+    },
+    {
+      "label": "H24",
+      "index": 23,
+      "displacement_A": 0.44376493461971167
+    },
+    {
+      "label": "H25",
+      "index": 24,
+      "displacement_A": 1.5696033450036937
+    },
+    {
+      "label": "H26",
+      "index": 25,
+      "displacement_A": 0.30443253974849627
+    }
+  ],
+  "sha256": {
+    "inputs": {
+      "data/derived/structures/ts_opt.xyz": "f9d00975f03d2d27b2ce35ab8d5789790ad136c75da5549fa761b94c0eff76b3",
+      "data/derived/structures/prephenate_opt_chororder.xyz": "bf1814ee93c4c641a405733872da4dca64ee32ce542efe3df9325817e18ff0a9",
+      "data/derived/ts_summary.json": "3fbfe216ded95ad2c1738a8363ae743c8e956ba2584b691f55dcbf9919320c9e",
+      "data/derived/orca_v2/step3_irc/irc_IRC_B.xyz": "4dd91b50f1d4adc1cc4de8084f69aba3eb0fa8a4e0582b456ab29df921ab4939"
+    },
+    "outputs": {
+      "data/derived/structures/prephenate_TSframe.xyz": "bedffd5feaddc4c895db52147b636eb6ada26ec7e37762b84087a7008cdc7d32"
+    }
+  },
+  "irc_frame_drift": {
+    "reference": "data/derived/orca_v2/step3_irc/irc_IRC_B.xyz",
+    "note": "rigid drift of the re-optimised product from its IRC frame. The rotation is the angle of the core-based rigid transform carrying the re-optimised geometry back into its IRC frame; the loop displacements are the six core atoms' residuals after the best full-atom rigid registration onto the origin. Scoping on the v1 chain measured 1.56 deg / ~0.30 A (loop RMS); sanity reference, no gate",
+    "rotation_angle_deg": 1.547922063241533,
+    "per_loop_atom_displacement_A": [
+      {
+        "label": "O1",
+        "index": 0,
+        "displacement_A": 0.5201786566863128
+      },
+      {
+        "label": "C7",
+        "index": 6,
+        "displacement_A": 0.26494492241564904
+      },
+      {
+        "label": "C9",
+        "index": 8,
+        "displacement_A": 0.1525863375829963
+      },
+      {
+        "label": "C11",
+        "index": 10,
+        "displacement_A": 0.23231097126701553
+      },
+      {
+        "label": "C14",
+        "index": 13,
+        "displacement_A": 0.2994530216811051
+      },
+      {
+        "label": "C16",
+        "index": 15,
+        "displacement_A": 0.1801596242855953
+      }
+    ],
+    "loop_rmsd_A": 0.30004505966896
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "purpose": "provisional mini cloud for the first exhaustive DFT brute-force search (penalty-term calibration); the full cloud remains the canonical search space",
+  "seed": 20260925,
+  "n": 32,
+  "n_provisional": true,
+  "n_provisional_note": "final size is fixed when the HPC capacity is known; re-run with --n to regenerate (bit-reproducible given seed + n)",
+  "canonical_cloud": {
+    "path": "data/derived/candidates.npy",
+    "sha256": "39375784f15fca177e58814f20e376df01597743373376a13df6ccf37ee911d6",
+    "n_points": 826
+  },
+  "strata_rules": {
+    "core": {
+      "nearest_ts_atom_1idx": [
+        1,
+        7,
+        9,
+        11,
+        14,
+        16
+      ],
+      "target": 10
+    },
+    "carboxylate": {
+      "ring_cooH_1idx": [
+        13,
+        3,
+        4
+      ],
+      "pyruvate_cooH_1idx": [
+        15,
+        5,
+        6
+      ],
+      "target": 8
+    },
+    "spread": {
+      "rule": "remaining points (surface coverage; tops up short strata)",
+      "quota": "n - 18 (+ any stratum deficits)"
+    }
+  },
+  "selection_procedure": "per stratum: admissible (not clash-flagged) points in canonical index order; one seeded RNG (seed 20260925, draw order: core, carboxylate, spread) shuffles each pool; take first k; output order: core, carboxylate, spread (shuffle order within stratum)",
+  "counts": {
+    "core": {
+      "eligible": 42,
+      "selected": 10
+    },
+    "carboxylate": {
+      "eligible": 107,
+      "selected": 8
+    },
+    "spread": {
+      "eligible": 307,
+      "selected": 14
+    }
+  },
+  "exclusion": {
+    "rule": "data/derived/r_clash_mask.npy flags (union-depth clash rule, amended 2026-09-25; 370/826 flagged)",
+    "per_stratum": {
+      "core": 51,
+      "carboxylate": 106,
+      "spread": 213
+    },
+    "total_flagged": 370
+  },
+  "per_point": [
+    {
+      "mini_index": 0,
+      "canonical_index": 29,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 1,
+      "canonical_index": 27,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 2,
+      "canonical_index": 107,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 3,
+      "canonical_index": 822,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 9,
+      "nearest_ts_element": "C"
+    },
+    {
+      "mini_index": 4,
+      "canonical_index": 749,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 9,
+      "nearest_ts_element": "C"
+    },
+    {
+      "mini_index": 5,
+      "canonical_index": 37,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 6,
+      "canonical_index": 28,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 7,
+      "canonical_index": 110,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 8,
+      "canonical_index": 823,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 7,
+      "nearest_ts_element": "C"
+    },
+    {
+      "mini_index": 9,
+      "canonical_index": 21,
+      "stratum": "core",
+      "nearest_ts_atom_1idx": 1,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 10,
+      "canonical_index": 294,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 6,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 11,
+      "canonical_index": 560,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 3,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 12,
+      "canonical_index": 232,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 15,
+      "nearest_ts_element": "C"
+    },
+    {
+      "mini_index": 13,
+      "canonical_index": 296,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 6,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 14,
+      "canonical_index": 498,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 4,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 15,
+      "canonical_index": 193,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 5,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 16,
+      "canonical_index": 248,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 6,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 17,
+      "canonical_index": 545,
+      "stratum": "carboxylate",
+      "nearest_ts_atom_1idx": 3,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 18,
+      "canonical_index": 516,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 25,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 19,
+      "canonical_index": 402,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 23,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 20,
+      "canonical_index": 808,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 19,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 21,
+      "canonical_index": 712,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 22,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 22,
+      "canonical_index": 721,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 22,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 23,
+      "canonical_index": 119,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 18,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 24,
+      "canonical_index": 54,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 19,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 25,
+      "canonical_index": 704,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 22,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 26,
+      "canonical_index": 302,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 24,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 27,
+      "canonical_index": 529,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 25,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 28,
+      "canonical_index": 728,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 2,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 29,
+      "canonical_index": 62,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 17,
+      "nearest_ts_element": "H"
+    },
+    {
+      "mini_index": 30,
+      "canonical_index": 681,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 2,
+      "nearest_ts_element": "O"
+    },
+    {
+      "mini_index": 31,
+      "canonical_index": 769,
+      "stratum": "spread",
+      "nearest_ts_atom_1idx": 17,
+      "nearest_ts_element": "H"
+    }
+  ],
+  "sizing": {
+    "t_sp_mean_s": 33.49,
+    "source": "scratch/orca_ff/benchmark.json (measured, 3 configs)",
+    "note": "a REPORT, not a decision: predicted serial wall hours (2 t_SP per config); the final n is fixed later",
+    "table": [
+      {
+        "n": 20,
+        "configs": 760,
+        "single_points": 1520,
+        "predicted_serial_hours": 14.14
+      },
+      {
+        "n": 24,
+        "configs": 1104,
+        "single_points": 2208,
+        "predicted_serial_hours": 20.54
+      },
+      {
+        "n": 28,
+        "configs": 1512,
+        "single_points": 3024,
+        "predicted_serial_hours": 28.13
+      },
+      {
+        "n": 32,
+        "configs": 1984,
+        "single_points": 3968,
+        "predicted_serial_hours": 36.91
+      },
+      {
+        "n": 36,
+        "configs": 2520,
+        "single_points": 5040,
+        "predicted_serial_hours": 46.89
+      },
+      {
+        "n": 40,
+        "configs": 3120,
+        "single_points": 6240,
+        "predicted_serial_hours": 58.05
+      }
+    ]
+  },
+  "readiness_smoke": {
+    "m": 3,
+    "micro_cloud": "scratch/micro_cloud.npy (+ scratch/micro_cloud_indices.npy; NOT canonical)",
+    "predicted_wall_min": 13.4,
+    "predicted_from": "24 single points x mean t_SP (benchmark.json)",
+    "m_decision_note": "lowered from the brief's m=5: measured core-point single points on the micro cloud (ts 21.6 s, r 99.0 s on the first config; ~60 s/SP) exceed the 33.5 s benchmark mean, so m=5 predicted ~80 min > the 1 h hard cap; m=3 predicts ~24 min (observed smoke runtime 497.5 s)",
+    "note": "plumbing verification only -- NO scientific conclusion may be drawn from the smoke numbers"
+  },
+  "deferred_exhaustive_run": {
+    "command": "python src/brute_force.py --fitness orca --candidates data/derived/mini_cloud.npy --out-dir <HPC scratch> --topk 1000",
+    "status": "NOT STARTED -- deferred to the university HPC (deliberate boundary)",
+    "isolation_warning": "config_key does not encode cloud identity: run the exhaustive search in a FRESH scratch root (a new HPC scratch is safe by construction); never mix clouds in one scratch/cache (locally, use GOCAT_FF_SCRATCH)"
+  },
+  "sha256": {
+    "inputs": {
+      "data/derived/candidates.npy": "39375784f15fca177e58814f20e376df01597743373376a13df6ccf37ee911d6",
+      "data/derived/structures/ts_opt.xyz": "68893bc1cc7eb81a31bf95b05caf3173873bb421ab85b62167b8f8ca7e8e6f73",
+      "data/derived/r_clash_mask.npy": "b9d5664ab6100a49d0ddc2ee19c9e9d5f13c9e8d149c11adf6652d9baf48a0db"
+    },
+    "outputs": {
+      "data/derived/mini_cloud.npy": "6d848f9108344409af2db5f6f7cf47980adb8c4f51531519113c6be85a2c7390",
+      "data/derived/mini_cloud_indices.npy": "38372494de6028eeec6eb177aa65d6e55107732141b9180a5ba310c69ecb5fab"
+    }
+  },
+  "timestamp": "2026-09-25T16:57:22"
+}
